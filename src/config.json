@@ -1,0 +1,29 @@
+{
+	"liquid": {
+		"baseURL": {
+			"dev": "//web1.qa.sambatech.com:10000/v1",
+			"staging": "//staging.sambavideos.sambatech.com/v1",
+			"prod": "//sambavideos.sambatech.com/v1"
+		},
+		"internal": {
+			"createMedia": "/medias",
+			"associateMedia": "/medias/{media_id}",
+			"changeMedia": "/medias/{media_id}/change"
+		},
+		"external": {
+			"createMedia": "/medias/widget",
+			"associateMedia": "/medias/{media_id}/widget",
+			"changeMedia": "/medias/{media_id}/change/widget"
+		}
+
+	},
+	"spipe": {
+		"baseURL": {
+			"dev": "//web1.qa.sambatech.com:11000/spipe/v1",
+			"staging": "//staging-upp.sambavideos.sambatech.com/v1",
+			"prod": "//upload.sambavideos.sambatech.com/v1"
+		},
+		"storageInfoEndpoint": "/storageMetadata",
+		"signatureEndpoint": "/sign"
+	}
+}

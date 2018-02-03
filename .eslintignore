@@ -1,0 +1,6 @@
+lib/*
+src/css/**/*
+src/**/*.jsx
+src/**/*.svg
+src/**/*.scss
+

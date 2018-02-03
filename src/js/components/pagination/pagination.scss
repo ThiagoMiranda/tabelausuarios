@@ -1,0 +1,40 @@
+
+.wrap-pagination{
+	height:10px;
+	float:right;
+	margin-top:15px;
+	margin-bottom:30px;
+  }
+
+  .wrap-pagination li{
+	display:inline-block;
+	font-size:14px;
+	display: inline-block;
+	border-radius: 2px;
+	text-align: center;
+	vertical-align: top;
+	height: 30px;
+	width:30px;
+	color:#fff;
+	cursor: pointer;
+  }
+  .wrap-pagination li i{
+	line-height: 35px;
+  }
+  .wrap-pagination li a{
+	color:#fff;
+	line-height: 30px;
+	text-align: center;
+  }
+  .wrap-pagination li.active{
+	background-color:#fff;
+  }
+  .wrap-pagination li.active a{
+	color:#25b7c4;
+  }
+  .wrap-pagination li.dots{
+	cursor: default;
+  }
+  .wrap-pagination li i{
+	color:#fff;
+  }

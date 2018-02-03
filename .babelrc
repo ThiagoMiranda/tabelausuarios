@@ -1,0 +1,5 @@
+{
+  "presets": ["env", "es2015", "stage-0"],
+  "plugins": ["babel-plugin-add-module-exports", "transform-runtime",
+	"transform-class-properties", "transform-object-rest-spread"]
+}
