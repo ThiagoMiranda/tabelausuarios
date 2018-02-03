@@ -1,10 +1,10 @@
-# Widget de Upload
+# Tabela de Usuários
 
-Widget de upload desenvolvido para ser usado em integração com o Sambavídeos
+Tabela de usuários para ser instanciada em uma página
 
 ## Features
 
-* Pode ser instalado via npm ou diretamente na nossa CDN - {`http://static.sambavideos.sambatech.com/sambauploader/latest/samba.uploader.min.js`}
+* Pode ser instalado via npm ou diretamente na nossa CDN - {`https://bancointer.cdn/static/js/usertable.js`}
 * Desenvolvido em ES6
 * Biblioteca em UMD compatível com RequireJS, CommonsJS, RhinoJS e etc.
 * Testado com Karma + Jasmine
