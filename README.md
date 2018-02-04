@@ -10,7 +10,7 @@ Tabela de usuários para ser instanciada em uma página
 * Testado com Karma + Jasmine
 * ESLint com [ESLint](http://eslint.org/).
 
-## Processo
+## Processo e organização
 
 ```
 ES6 source files
@@ -45,8 +45,8 @@ ES6 source files
 
 Para carregar o widget de tabela são necessários dois arquivos:
 ```html
-	<link rel="stylesheet" href="lib/inter.userstable.min.css">
-	<script src="lib/inter.userstable.min.js"></script>
+<link rel="stylesheet" href="lib/inter.userstable.min.css">
+<script src="lib/inter.userstable.min.js"></script>
 ```
 
 ## Instanciar
