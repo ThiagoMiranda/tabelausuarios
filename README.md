@@ -28,6 +28,8 @@ ES6 source files
 
 ## Iniciando o desenvolvimento
 
+Antes tenha certeza que possui o Node verso 8+ na sua máquina. Plugin desenvolvido e testado em um macOS High Sierra na versão do node v8.9.3.
+
 1. Baixe o projeto
 2. Digite `npm i`
 3. Para rodar localmente digite `npm start`. Rodará na porta 3000 ( localhost:3000/raw.html para versão isolada e /index.html para a completa)
