@@ -55,12 +55,12 @@ Eles podem ser achados na pasta /lib do projeto ou requistados no CDN:
 
 Depois basta inserir o código abaixo:
 ```javascript
-	const userstable = new InterUsersTable({
-		element: document.querySelector('#table-placeholder'), //	elemento html container
-		endpoint: 'https://api.myjson.com/bins/1as255', // endpoint dos usuários
-		forceEndpoint: false,	//	força o get na URL atualizando o localstorage
-		perPage: 10	//	quantas usuários por página
-	});
+const userstable = new InterUsersTable({
+  element: document.querySelector('#table-placeholder'), //	elemento html container
+  endpoint: 'https://api.myjson.com/bins/1as255', // endpoint dos usuários
+  forceEndpoint: false,	//	força o get na URL atualizando o localstorage
+  perPage: 10	//	quantas usuários por página
+});
 ```
 
 ## Métodos/Eventos
@@ -70,12 +70,12 @@ Para escutar eventos basta usar o método "on". Os eventos suportados são:
 
 Exemplo:
 ```javascript
-	userstable.on('loaded', (event) => {
-		console.info(event)
-	});
+userstable.on('loaded', (event) => {
+  console.info(event)
+});
 
-	userstable.on('usersFetched', (event) => {
-		console.info(event)
-	});
+userstable.on('usersFetched', (event) => {
+  console.info(event)
+});
 ```
 
