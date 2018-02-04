@@ -9,6 +9,7 @@ Tabela de usuários para ser instanciada em uma página
 * Biblioteca em UMD compatível com RequireJS, CommonsJS, RhinoJS e etc.
 * Testado com Karma + Jasmine
 * ESLint com [ESLint](http://eslint.org/).
+* Testado no Chrome, Safari e Firefox
 
 ## Processo e organização
 

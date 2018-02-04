@@ -33,7 +33,6 @@ export default class Table {
 	renderItems = (users) => {
 		//	Limpando a tabela
 		while (this.table.lastChild) this.table.removeChild(this.table.lastChild);
-
 		this.tbody = document.createElement('tbody');
 		this.items = users.map(user => {
 			return new Item(user, this.tbody);

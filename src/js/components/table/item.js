@@ -10,10 +10,10 @@ export default class Item {
 		this.user = user;
 		this.container = container;
 		loadView.apply(this);
-		this.init(event);
+		this.init();
 	}
 
-	init(event) {
+	init() {
 		this.bindEvents();
 		this.initItemInfo();
 		this.container.appendChild(this.view);

@@ -40,6 +40,7 @@ export default class UserTable {
 		//	Eventos Users
 		evtDispatcher.on('users:loaded', event => {
 			this.users = event.users;
+
 			this.usersReduced = reduceObject(this.users);
 			this.state.numberOfPages = Math.ceil(this.users.length / this.perPage);
 			this.table = new Table(this.generateUsersContent(this.users), this.view);
