@@ -1,28 +1,50 @@
-import { generateUniqueId, isHTMLElement, formatFileSize } from '../../../src/js/commons/helpers';
+import { paginator, filter, reduceObject } from '../../../src/js/commons/helpers';
 
+let cars, carsFlattened = [];
 describe('Helpers file', () => {
-	it('Should generate a unique ID', () => {
-		const id1 = generateUniqueId();
-		const id2 = generateUniqueId();
+	beforeAll(() => {
+		cars = [{
+			id: 1,
+			name: 'UP',
+			brand: 'Volkswagen',
+			year: 2016
+		}, {
+			id: 2,
+			name: 'Onix',
+			brand: 'Chevrolet',
+			year: 2014
+		}, {
+			id: 3,
+			name: 'KA',
+			brand: 'Ford',
+			year: 2018
+		}];
 
-		expect(id1.length).toBe(36);
-		expect(id1).not.toBe(id2);
+		carsFlattened = [
+			'1 up volkswagen 2016',
+			'2 onix chevrolet 2014',
+			'3 ka ford 2018'
+		];
 	});
 
-	it('Should see if it\'s a HTML element or not', () => {
-		const htmlElement = document.createElement('div');
-		const notHtmlElement = {};
+	it('Should generate a array length === 3', () => {
+		const pageArray = paginator(0, 10);
 
-		expect(isHTMLElement(htmlElement)).toBeTruthy();
-		expect(isHTMLElement(notHtmlElement)).toBeFalsy();
+		expect(pageArray.length).toBe(4);
+		expect(pageArray[pageArray.length - 2]).toBe('...');
 	});
 
-	it('Should return formated fileSize', () => {
-		const sizeInBytes = 2e+8;
-		const otherSizeInBytes = 2.0052e+10;
+	it('Expect to return only the queried object', () => {
+		const filteredCars = filter(carsFlattened, 'on');
 
-		expect(formatFileSize(sizeInBytes, 2)).toBe('200 MB');
-		expect(formatFileSize(otherSizeInBytes, 2)).toBe('20.05 GB');
+		expect(filteredCars.length).toBe(1);
+		expect(filteredCars[0]).toBe(1);
+	});
+
+	it('Should reduce object to flattened array', () => {
+		const flattened = reduceObject(cars);
+
+		expect(flattened.length).toBe(3);
 	});
 
 });

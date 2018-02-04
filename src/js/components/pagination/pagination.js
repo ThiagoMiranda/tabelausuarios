@@ -1,5 +1,5 @@
 import loadView from './pagination.jsx';
-import { paginator, filter, reduceObject } from '../../commons/helpers';
+import { paginator } from '../../commons/helpers';
 import { evtDispatcher } from '../../commons/EventDispatcher';
 
 //	CSS

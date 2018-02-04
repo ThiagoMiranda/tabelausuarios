@@ -1,5 +1,4 @@
 import loadView from './modal.jsx';
-import { formatFileSize } from '../../commons/helpers';
 import { evtDispatcher } from '../../commons/EventDispatcher';
 
 //	CSS

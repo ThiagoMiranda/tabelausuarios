@@ -1,6 +1,7 @@
 import UserTableContainer from './containers/UserTable';
 import { request } from './commons/request';
 import EventDispatcher, { evtDispatcher } from './commons/EventDispatcher';
+import LocalStorage from './commons/LocalStore';
 
 /**
  * Inter table
@@ -15,28 +16,22 @@ export default class InterTable extends EventDispatcher {
 	constructor(options) {
 		super();
 		this.options = {...this.defaultOptions, ...options};
-		this.getUsers();
+
 		this.initUserTable(this.options.element);
-		this.bindEvents();
+		this.getUsers();
 	}
 
 	async getUsers() {
-		this.users = await request(this.options.endpoint);
+		this.users = LocalStorage.get('inter-users');
+		if(this.users ===  null)
+			this.users = await request(this.options.endpoint);
 		evtDispatcher.trigger({ type: 'users:loaded', users: this.users });
+
+		LocalStorage.set('inter-users', this.users);
 	}
 
 	initUserTable() {
 		this.template = new UserTableContainer(this.options.element, this.options.perPage);
-		//this.modal = new Modal(this.options.element);
-	}
-
-	bindEvents = () => {
-		evtDispatcher.on('item:edit', event => {
-			console.log(event);
-		});
-		evtDispatcher.on('item:delete', event => {
-			console.log(event);
-		});
 	}
 }
 

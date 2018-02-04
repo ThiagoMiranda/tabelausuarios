@@ -1,11 +1,12 @@
 import loadView from './usertable.jsx';
-import { paginator, filter, reduceObject } from '../../commons/helpers';
+import { filter, reduceObject } from '../../commons/helpers';
 import { evtDispatcher } from '../../commons/EventDispatcher';
 import LocalStorage from '../../commons/LocalStore';
 
 import Table from '../../components/table';
 import Pagination from '../../components/pagination';
 import Form from '../../components/form';
+import Messages from '../../components/messages';
 
 //	CSS
 import './usertable.scss';
@@ -43,13 +44,12 @@ export default class UserTable {
 			this.state.numberOfPages = Math.ceil(this.users.length / this.perPage);
 			this.table = new Table(this.generateUsersContent(this.users), this.view);
 			this.pagination = new Pagination(this.state.numberOfPages, this.perPage, this.view);
-
-			LocalStorage.set('inter-users', this.users);
 		});
 
 		//	Eventos Search
 		evtDispatcher.on('search:change', event => {
 			const searchedIds = filter(this.usersReduced, event.query);
+
 			this.state.currentUsersFilter = this.users.filter(user => searchedIds.indexOf(user.id - 1) > -1);
 			this.state.numberOfPages = Math.ceil(this.state.currentUsersFilter.length / this.perPage);
 			this.state.currentPage = 0;
@@ -72,36 +72,38 @@ export default class UserTable {
 			this.state.currentPage = event.page;
 			const users = this.generateUsersContent(this.state.currentUsersFilter.length > 0 ?
 				this.state.currentUsersFilter : this.users);
+
 			evtDispatcher.trigger({ type: 'users:updated', event, users });
 		});
 
 		//	Eventos Edit/Update
 		evtDispatcher.on('user:edit', event => {
-			this.successMessage.classList.remove('message');
-			this.successMessage.firstChild.innerHTML = "";
-
-			if(this.form) this.form.destroy();
+			if (this.form) {
+				this.form.destroy();
+				this.form = null;
+			}
 			this.form = new Form(event.user, this.formView);
 		});
 
 		evtDispatcher.on('user:edited', event => {
-			this.successMessage.classList.add('message');
-			this.successMessage.firstChild.innerHTML = `Usuário ${event.user.first_name}` +
-			` ${event.user.last_name} editado com sucesso!`;
+			this.messages = new Messages(`Usuário ${event.user.first_name}` +
+			` ${event.user.last_name} editado com sucesso!`, 'success', this.messagesWrapper);
 
-			if(this.form) this.form.destroy();
+			if (this.form) {
+				this.form.destroy();
+				this.form = null;
+			}
 			this.editUser(event.user);
 		});
 
 		evtDispatcher.on('user:delete', event => {
-			this.successMessage.classList.add('message');
-			this.successMessage.firstChild.innerHTML = `Usuário ${event.user.first_name}` +
-			` ${event.user.last_name} deletado com sucesso!`;
+			this.messages = new Messages(`Usuário ${event.user.first_name}` +
+			` ${event.user.last_name} deletado com sucesso!`, 'success', this.messagesWrapper);
 			this.removeUser(event.user);
 		});
 
 		evtDispatcher.on('form:cancel', event => {
-			if(this.form) this.form.destroy();
+			if (this.form) this.form.destroy();
 			this.form = null;
 		});
 	}
@@ -131,13 +133,14 @@ export default class UserTable {
 
 	editUser = (user) => {
 		const users = this.users.map(usr => {
-			if(usr.id === user.id) usr = user;
+			if (usr.id === user.id) usr = user;
 			return usr;
 		});
 
 		this.table.destroy();
 		this.pagination.destroy();
 		evtDispatcher.trigger({ type: 'users:loaded', users: users });
+		LocalStorage.set('inter-users', users);
 	}
 
 	removeUser = (user) => {
@@ -145,7 +148,9 @@ export default class UserTable {
 
 		this.table.destroy();
 		this.pagination.destroy();
+		console.info(users)
 		evtDispatcher.trigger({ type: 'users:loaded', users: users });
+		LocalStorage.set('inter-users', users);
 	}
 
 	destroy() {

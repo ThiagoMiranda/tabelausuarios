@@ -2,12 +2,7 @@
 export default function loadView() {
 	return (
 		<section id="inter-users-table" ref={ref => this.view = ref}>
-			<div class="success" ref={ref => this.successMessage = ref}>
-				<p></p>
-			</div>
-			<div class="error" ref={ref => this.errorMessage = ref}>
-				<p></p>
-			</div>
+			<div class="wrap-messages" ref={ref => this.messagesWrapper = ref}></div>
 			<h1>Usuários</h1>
 			<div class="wrap-search">
 				<span onClick={this.searchClicked} ref={ref => this.searchIcon = ref}><i class="material-icons">search</i></span>

@@ -1,6 +1,5 @@
 import loadView from './table.jsx';
 import Item from './item';
-import { paginator, filter, reduceObject } from '../../commons/helpers';
 import { evtDispatcher } from '../../commons/EventDispatcher';
 
 //	CSS
@@ -37,8 +36,8 @@ export default class Table {
 
 		this.tbody = document.createElement('tbody');
 		this.items = users.map(user => {
-				return new Item(user, this.tbody);
-			});
+			return new Item(user, this.tbody);
+		});
 		this.table.appendChild(this.tbody);
 	}
 
