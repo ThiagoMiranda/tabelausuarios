@@ -1,7 +1,7 @@
 deploy:
 	rm -rf ./public/js/lib
 	npm run build
-	cp -a ./lib ./public/js
+	cp -a ./lib ./public
 	cd ./public && \
 	git init . && \
 	git add . && \

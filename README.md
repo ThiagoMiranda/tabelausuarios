@@ -29,7 +29,7 @@ ES6 source files
 
 1. Baixe o projeto
 2. Digite `npm i`
-3. Para rodar localmente digite `npm start`. Rodará na porta 3000 ( localhost:3000/raw.html para versão isolada )
+3. Para rodar localmente digite `npm start`. Rodará na porta 3000 ( localhost:3000/raw.html para versão isolada e /index.html para a completa)
 4. Para build digite `npm run build`
 5. Testes: `npm test`
 
