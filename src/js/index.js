@@ -10,7 +10,8 @@ import LocalStorage from './commons/LocalStore';
 export default class InterTable extends EventDispatcher {
 	users = {};
 	defaultOptions = {
-		perPage: 10
+		perPage: 10,
+		forceEndpoint: false
 	};
 
 	constructor(options) {
@@ -22,12 +23,12 @@ export default class InterTable extends EventDispatcher {
 	}
 
 	async getUsers() {
-		this.users = LocalStorage.get('inter-users');
-		if(this.users ===  null)
+		this.users = LocalStorage.get('users');
+		if (this.options.forceEndpoint || this.users === null)
 			this.users = await request(this.options.endpoint);
 		evtDispatcher.trigger({ type: 'users:loaded', users: this.users });
 
-		LocalStorage.set('inter-users', this.users);
+		LocalStorage.set('users', this.users);
 	}
 
 	initUserTable() {

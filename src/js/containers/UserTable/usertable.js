@@ -140,7 +140,7 @@ export default class UserTable {
 		this.table.destroy();
 		this.pagination.destroy();
 		evtDispatcher.trigger({ type: 'users:loaded', users: users });
-		LocalStorage.set('inter-users', users);
+		LocalStorage.set('users', users);
 	}
 
 	removeUser = (user) => {
@@ -148,9 +148,8 @@ export default class UserTable {
 
 		this.table.destroy();
 		this.pagination.destroy();
-		console.info(users)
 		evtDispatcher.trigger({ type: 'users:loaded', users: users });
-		LocalStorage.set('inter-users', users);
+		LocalStorage.set('users', users);
 	}
 
 	destroy() {
