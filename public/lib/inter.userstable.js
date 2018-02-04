@@ -4077,6 +4077,7 @@ var UserTable = function () {
 			//	Eventos Users
 			_EventDispatcher.evtDispatcher.on('users:loaded', function (event) {
 				_this.users = event.users;
+
 				_this.usersReduced = (0, _helpers.reduceObject)(_this.users);
 				_this.state.numberOfPages = Math.ceil(_this.users.length / _this.perPage);
 				_this.table = new _table2.default(_this.generateUsersContent(_this.users), _this.view);
@@ -4602,12 +4603,12 @@ var Item = function () {
 		this.user = user;
 		this.container = container;
 		_item2.default.apply(this);
-		this.init(event);
+		this.init();
 	}
 
 	(0, _createClass3.default)(Item, [{
 		key: 'init',
-		value: function init(event) {
+		value: function init() {
 			this.bindEvents();
 			this.initItemInfo();
 			this.container.appendChild(this.view);
