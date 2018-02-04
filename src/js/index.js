@@ -17,8 +17,12 @@ export default class InterTable extends EventDispatcher {
 	constructor(options) {
 		super();
 		this.options = {...this.defaultOptions, ...options};
+		this.init();
+	}
 
+	init() {
 		this.initUserTable(this.options.element);
+		this.trigger({ type: 'loaded', interTable: this}, true);
 		this.getUsers();
 	}
 
@@ -27,7 +31,7 @@ export default class InterTable extends EventDispatcher {
 		if (this.options.forceEndpoint || this.users === null)
 			this.users = await request(this.options.endpoint);
 		evtDispatcher.trigger({ type: 'users:loaded', users: this.users });
-
+		this.trigger({ type: 'usersFetched', users: this.users, interTable: this}, true);
 		LocalStorage.set('users', this.users);
 	}
 

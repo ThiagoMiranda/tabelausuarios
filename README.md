@@ -4,7 +4,7 @@ Tabela de usuários para ser instanciada em uma página
 
 ## Features
 
-* Pode ser instalado via npm ou diretamente na nossa CDN - {`https://bancointer.cdn/static/js/usertable.js`}
+* Pode ser instalado via npm ou diretamente na nossa CDN - {`https://bancointer.cdn/static/lib/js/usertable.js`} * mock
 * Desenvolvido em ES6
 * Biblioteca em UMD compatível com RequireJS, CommonsJS, RhinoJS e etc.
 * Testado com Karma + Jasmine
@@ -29,21 +29,53 @@ ES6 source files
 
 1. Baixe o projeto
 2. Digite `npm i`
-3. Para rodar localmente digite `npm start`. Rodará na porta 8000 ( Github pages na 8080 )
+3. Para rodar localmente digite `npm start`. Rodará na porta 3000 ( localhost:3000/raw.html para versão isolada )
 4. Para build digite `npm run build`
 5. Testes: `npm test`
 
 ## Scripts
 
-* `npm run build` - testa e produz uma versão minificada no path ./dist
+* `npm run build` - testa e produz uma versão minificada no path ./lib
 * `npm start` - Sobe uma página de testes atualizável com watch
 * `npm test` - Roda os testes
 * `npm run test:watch` - Igual acima mas em watch mode
 * `npm run ghpages` - Publica a Github Pages do projeto
 
-### Projeto no npm
-https://www.npmjs.com/package/samba-uploader ( instalável pelo comando `npm i --save samba-uploader` )
-
 ## Documentação
 
-Exemplos e documentação podem ser encontrados no http://sambatech.github.io/uploadWidget/
+Para carregar o widget de tabela são necessários dois arquivos:
+```html
+	<link rel="stylesheet" href="lib/inter.userstable.min.css">
+	<script src="lib/inter.userstable.min.js"></script>
+```
+
+## Instanciar
+Eles podem ser achados na pasta /lib do projeto ou requistados no CDN:
+{`https://bancointer.cdn/static/lib/**.*`} * mock
+
+Depois basta inserir o código abaixo:
+```javascript
+	const userstable = new InterUsersTable({
+		element: document.querySelector('#table-placeholder'), //	elemento html container
+		endpoint: 'https://api.myjson.com/bins/1as255', // endpoint dos usuários
+		forceEndpoint: false,	//	força o get na URL atualizando o localstorage
+		perPage: 10	//	quantas usuários por página
+	});
+```
+
+## Métodos/Eventos
+Para escutar eventos basta usar o método "on". Os eventos suportados são:
+- loaded: disparado quando o widget é instanciado
+- usersFetched: quando os usuários são carregados seja do endpoint seja do LocalStorage
+
+Exemplo:
+```javascript
+	userstable.on('loaded', (event) => {
+		console.info(event)
+	});
+
+	userstable.on('usersFetched', (event) => {
+		console.info(event)
+	});
+```
+

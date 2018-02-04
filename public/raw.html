@@ -50,8 +50,18 @@
 				<script>
 					const userstable = new InterUsersTable({
 						element: document.querySelector('#table-placeholder'),
-						endpoint: '/json/users.json',
+						//endpoint: '/json/users.json',
+						endpoint: 'https://api.myjson.com/bins/1as255',
+						forceEndpoint: false,
 						perPage: 10
+					});
+
+					userstable.on('loaded', (event) => {
+						console.info(event)
+					});
+
+					userstable.on('usersFetched', (event) => {
+						console.info(event)
 					});
 				</script>
 			</div>

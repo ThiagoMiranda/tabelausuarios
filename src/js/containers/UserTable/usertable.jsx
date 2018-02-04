@@ -23,6 +23,15 @@ export default function loadView() {
 					</thead>
 				</table>
 			</div>
+			<div class="tbl-loading" ref={ref => this.loading = ref}>
+				<span>Carregando</span>
+				<span class="l-1"></span>
+				<span class="l-2"></span>
+				<span class="l-3"></span>
+				<span class="l-4"></span>
+				<span class="l-5"></span>
+				<span class="l-6"></span>
+			</div>
 		</section>
 	)
 }

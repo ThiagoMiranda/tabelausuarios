@@ -44,6 +44,8 @@ export default class UserTable {
 			this.state.numberOfPages = Math.ceil(this.users.length / this.perPage);
 			this.table = new Table(this.generateUsersContent(this.users), this.view);
 			this.pagination = new Pagination(this.state.numberOfPages, this.perPage, this.view);
+
+			this.destroyLoading();
 		});
 
 		//	Eventos Search
@@ -150,6 +152,12 @@ export default class UserTable {
 		this.pagination.destroy();
 		evtDispatcher.trigger({ type: 'users:loaded', users: users });
 		LocalStorage.set('users', users);
+	}
+
+	destroyLoading() {
+		try {
+			this.view.removeChild(this.loading);
+		} catch (e) {}
 	}
 
 	destroy() {

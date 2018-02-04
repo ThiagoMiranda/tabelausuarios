@@ -9,7 +9,8 @@
     "build": "webpack --config ./server/webpack.config.js --env build",
     "dev": "webpack --progress --colors --watch --env dev",
     "test": "karma start ./tests/karma.conf.js",
-    "version:patch": "npm version patch"
+	"version:patch": "npm version patch",
+	"ghpages": "make"
   },
   "devDependencies": {
     "babel-cli": "6.24.1",
