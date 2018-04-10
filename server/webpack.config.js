@@ -35,14 +35,14 @@ plugins.push(new OptimizeCssAssetsPlugin({
 const config = {
 	context: path.resolve(__dirname, '../src/'),
 	entry: {
-		'inter.userstable': './js/index.js',
-		'inter.userstable.min': './js/index.js'
+		'inter.faq': './js/index.js',
+		'inter.faq.min': './js/index.js'
 	},
 	devtool: 'source-map',
 	output: {
 		path: path.resolve(__dirname, '../lib'),
 		filename: '[name].js',
-		library: 'InterUsersTable',
+		library: 'InterFAQ',
 		libraryTarget: 'umd'
 	},
 	module: {

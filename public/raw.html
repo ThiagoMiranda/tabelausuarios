@@ -46,21 +46,20 @@
 				</div>
 				<div id="table-placeholder" class="container">
 				</div>
-				<script src="./inter.userstable.js"></script>
+				<script src="./inter.faq.js"></script>
 				<script>
-					const userstable = new InterUsersTable({
+					const faq = new InterFAQ({
 						element: document.querySelector('#table-placeholder'),
-						endpoint: '/json/users.json',
+						endpoint: '/json/faq.json',
 						//endpoint: 'https://api.myjson.com/bins/1as255',
-						forceEndpoint: false,
-						perPage: 10
+						forceEndpoint: true
 					});
 
-					userstable.on('loaded', (event) => {
+					faq.on('loaded', (event) => {
 						console.info(event)
 					});
 
-					userstable.on('usersFetched', (event) => {
+					faq.on('usersFetched', (event) => {
 						console.info(event)
 					});
 				</script>

@@ -1,4 +1,4 @@
-import UserTableContainer from './containers/UserTable';
+import FAQContainer from './containers/faq';
 import { request } from './commons/request';
 import EventDispatcher, { evtDispatcher } from './commons/EventDispatcher';
 import LocalStorage from './commons/LocalStore';
@@ -7,11 +7,9 @@ import LocalStorage from './commons/LocalStore';
  * Inter table
  *
  */
-export default class InterTable extends EventDispatcher {
+export default class FAQ extends EventDispatcher {
 	users = {};
 	defaultOptions = {
-		perPage: 10,
-		forceEndpoint: false
 	};
 
 	constructor(options) {
@@ -23,20 +21,20 @@ export default class InterTable extends EventDispatcher {
 	init() {
 		this.initUserTable(this.options.element);
 		this.trigger({ type: 'loaded', interTable: this}, true);
-		this.getUsers();
+		this.getFAQ();
 	}
 
-	async getUsers() {
-		this.users = LocalStorage.get('users');
-		if (this.options.forceEndpoint || this.users === null)
-			this.users = await request(this.options.endpoint);
-		evtDispatcher.trigger({ type: 'users:loaded', users: this.users });
-		this.trigger({ type: 'usersFetched', users: this.users, interTable: this}, true);
-		LocalStorage.set('users', this.users);
+	async getFAQ() {
+		this.faq = LocalStorage.get('faq');
+		if (this.options.forceEndpoint || this.faq === null)
+			this.faq = await request(this.options.endpoint);
+		evtDispatcher.trigger({ type: 'faq:loaded', faq: this.faq });
+		this.trigger({ type: 'faqFetched', faq: this.users, interFaq: this}, true);
+		LocalStorage.set('faq', this.faq);
 	}
 
 	initUserTable() {
-		this.template = new UserTableContainer(this.options.element, this.options.perPage);
+		this.template = new FAQContainer(this.options.element, this.options.perPage);
 	}
 }
 

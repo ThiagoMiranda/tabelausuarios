@@ -57,16 +57,47 @@ export function filter(initArray, query) {
  *
  * @param {*} array - array inicial de objetos
  */
-export function reduceObject(array) {
+export function reduceQuestionsObject(array) {
 	const reducedObj = array.reduce((rdc, obj) => {
-		const objArray = [];
+		const reducedQuestionObj = {
+			[obj['categories'].join(',')]: {
+				[obj['keys'].join(',')]: {
+					ask: obj.ask,
+					answer: obj.answer
+				}
+			}
+		};
 
-		for (let key in obj)
-			objArray.push((typeof obj[key] === 'string' ? obj[key].toLowerCase() : obj[key]));
-
-		rdc.push(objArray.join(' '));
+		rdc.push(reducedQuestionObj);
 		return rdc;
 	}, []);
 
 	return reducedObj;
+}
+
+export function searchByCategoryAndKeys(query, cat, questions) {
+	const splittedQuery = query.split(' ');
+	const filteredQuestions = questions.filter((question, key) => {
+		const categoryKey = Object.keys(question)[0];
+
+		if (cat.indexOf(categoryKey) > -1) {
+			const keywordsKey = Object.keys(question[categoryKey])[0];
+			const hasKeyword = splittedQuery.reduce((flag, item) => {
+				flag = keywordsKey.indexOf(item) > -1;
+				return flag;
+			}, false);
+
+			return hasKeyword;
+		}
+		return false;
+	});
+	const reducedQuestions = filteredQuestions.reduce((acc, obj) => {
+		const categoryObj = obj[Object.keys(obj)[0]];
+		const keyWordsObj = categoryObj[Object.keys(categoryObj)[0]]
+
+		acc.push(keyWordsObj);
+		return acc;
+	}, []);
+
+	return reducedQuestions;
 }

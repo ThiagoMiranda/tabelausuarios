@@ -1,0 +1,3072 @@
+{
+    "categories": [
+      {
+        "name": "Dados da Conta Digital",
+        "id": 2
+      },
+      {
+        "name": "Senha",
+        "id": 3
+      },
+      {
+        "name": "Cadastro",
+        "id": 6
+      },
+      {
+        "name": "Crédito e limites",
+        "id": 8
+      },
+      {
+        "name": "Cartão múltiplo",
+        "id": 9
+      },
+      {
+        "name": "Função crédito do cartão múltiplo",
+        "id": 10
+      },
+      {
+        "name": "Saques",
+        "id": 11
+      },
+      {
+        "name": "Transferências",
+        "id": 12
+      },
+      {
+        "name": "Depósito",
+        "id": 13
+      },
+      {
+        "name": "Pagamentos",
+        "id": 14
+      },
+      {
+        "name": "Interpag",
+        "id": 15
+      },
+      {
+        "name": "Recarga de celular",
+        "id": 16
+      },
+      {
+        "name": "Comprovantes (2ª via)",
+        "id": 17
+      },
+      {
+        "name": "Extrato",
+        "id": 18
+      },
+      {
+        "name": "Portabilidade de salário",
+        "id": 19
+      },
+      {
+        "name": "Informe de rendimentos",
+        "id": 20
+      },
+      {
+        "name": "Cadastro positivo",
+        "id": 21
+      },
+      {
+        "name": "Segurança",
+        "id": 22
+      },
+      {
+        "name": "Conta inativa",
+        "id": 23
+      },
+      {
+        "name": "Autenticação e Notificações ",
+        "id": 24
+      },
+      {
+        "name": "Conta Digital PRO - Pessoa Jurídica ",
+        "id": 25
+      },
+      {
+        "name": "Conta Digital MEI",
+        "id": 26
+      }
+    ],
+    "questions": [
+      {
+        "ask": "Qual é o código do Banco Inter e o número da minha agência?",
+        "answer": "O código do Banco Inter é o 077 e o número da agência é sempre 0001-9 (O n° 9 é o dígito verificador, em alguns Bancos poderá ser solicitada essa informação).",
+        "keys": [
+          "banco",
+          "agencia",
+          "numero"
+        ],
+        "categories": [
+          "2"
+        ],
+        "id": 2
+      },
+      {
+        "ask": "Esqueci o número da minha conta corrente. O que devo fazer?",
+        "answer": "Assim que a abertura da sua conta é confirmada, enviamos seus dados de acesso para o seu e-mail.\r\n\r\nProcure em sua caixa de entrada o e-mail com o título: “Nossas boas-vindas à sua Conta Digital Banco Inter”, ele conterá todas as informações que você precisa.\r\n\r\nCaso não consiga achar este e-mail, ligue para: 3003-4070 (para capitais e regiões metropolitanas) demais localidades 0800 940 0007. \r\nPara deficientes de fala e audição utilize o 0800 979 7099.",
+        "keys": [
+          "cc",
+          "conta corrente",
+          "esqueci"
+        ],
+        "categories": [
+          "2"
+        ],
+        "id": 3
+      },
+      {
+        "ask": "Quais são as características da minha Conta Digital no Banco Inter?",
+        "answer": "A conta corrente digital do Banco Inter é individual e pode ser movimentada\r\natravés do Internet Banking e APP, além de ser totalmente isenta de tarifas.\r\nAo abrir sua conta, é enviado o cartão Mastercard habilitado na função de\r\ndébito para realizar compras e saques nos caixas eletrônicos do Banco24Horas\r\nou da rede Cirrus.\r\n\r\nTambém será possível realizar transferências entre contas (Banco Inter e\r\ndemais bancos) gratuitas de qualquer valor, efetuar pagamento de boletos via\r\ninternet banking e APP, além de realizar investimentos com as melhores taxas\r\ndo mercado.\r\n\r\nAcesse o link https://www.bancointer.com.br/porque-nao- cobramos-\r\ntarifas.xhtml para obter informações dos motivos pelos quais não cobramos\r\ntarifas.",
+        "keys": [
+          "conta digital",
+          "caracteristicas"
+        ],
+        "categories": [
+          "2"
+        ],
+        "id": 4
+      },
+      {
+        "ask": "Como acesso o contrato da minha Conta Digital?",
+        "answer": "O contrato da sua Conta Digital fica acessível somente no Internet Banking.\r\nSiga o passo a passo abaixo para emiti-lo:\r\n\r\n1. Acesse sua conta através do site https://www.bancointer.com.br/; \r\n2. No menu ao lado esquerdo clique em Serviços;\r\n3. Acesse a opção Contrato Conta Digital;\r\n5. Clique em Termo de Abertura de Conta Corrente e faça o download.",
+        "keys": [
+          "primeiro acesso",
+          "acesso",
+          " acessar",
+          "contrato"
+        ],
+        "categories": [
+          "2"
+        ],
+        "id": 5
+      },
+      {
+        "ask": "Esqueci a senha do Internet Banking. O que devo fazer?",
+        "answer": "Siga os passos abaixo para criar uma nova senha através do Internet Banking:\r\n\r\n1. Acesse o site https://www.bancointer.com.br/ \r\n2. Na tela inicial, clique em Esqueci minha Senha;\r\n3. Preencha os dados solicitados de forma idêntica a ficha cadastral;\r\n4. Será enviado um código para o seu e-mail e outro para o seu celular através de SMS/PUSH;\r\n5. Inclua os dois códigos recebidos nos respectivos campos e clique em confirmar;\r\n6. No teclado virtual crie uma senha de sua preferência (de 6 a 8 caracteres) e depois confirme a senha criada;\r\n7. Pronto! Sua senha foi alterada com sucesso e não se esqueça de guardar a nova senha com segurança. \r\n\r\n*Importante: a senha deverá ter entre 6 e 8 caracteres ",
+        "keys": [
+          "internet banking",
+          " IB",
+          "letras e números",
+          "não lembro",
+          " resetar",
+          " refazer",
+          " redefinir",
+          "primeiro acesso",
+          "teclado virtual",
+          "e-mail",
+          " email",
+          " emails",
+          "esqueci",
+          "senha",
+          " senhas",
+          "SMS"
+        ],
+        "categories": [
+          "3"
+        ],
+        "id": 6
+      },
+      {
+        "ask": "Esqueci a senha do APP. O que devo fazer?",
+        "answer": "Siga os passos abaixo para criar uma nova senha através do aplicativo:\r\n\r\n1. Na tela inicial, clique em Esqueci minha Senha. Se você acessa a conta por touch ID, clique em cancelar para visualizar essa opção;\r\n2. Preencha os dados solicitados de forma idêntica a ficha cadastral e clique em Confirmar;\r\n3. Crie uma senha de sua preferência (de 6 a 8 caracteres) e no campo abaixo, confirme a senha criada;\r\n4. Será enviado um código para o seu e-mail e outro para o seu celular através de SMS/PUSH;\r\n5. Inclua os dois códigos recebidos nos respectivos campos e clique em confirmar;\r\n6. Pronto! Sua senha foi alterada com sucesso e não se esqueça de guardar a nova senha com segurança. \r\n\r\n*Importante: a senha deverá ter entre 6 e 8 caracteres com letras e números\r\n",
+        "keys": [
+          "letras e números",
+          "primeiro acesso",
+          "app",
+          " aplicativo",
+          "e-mail",
+          " email",
+          " emails",
+          "senha",
+          " senhas",
+          "SMS"
+        ],
+        "categories": [
+          "3"
+        ],
+        "id": 7
+      },
+      {
+        "ask": "Como faço a atualização do meu cadastro?",
+        "answer": "Para atualizar seus dados cadastrais, siga as orientações abaixo:\r\n\r\n1. Acesse sua conta através do site https://www.bancointer.com.br; \r\n2. No menu lateral esquerdo, clique em PERFIL e acesse a opção ATUALIZAÇÃO CADASTRAL;\r\n3. Em seguida, clique em EDITAR;\r\n4. Nessa opção será possível atualizar dados como telefones (fixo e celular), endereço e e-mail - após alterar os dados, clique em SALVAR;\r\n5. Será solicitada uma autenticação por token SMS/e-mail ou pela senha do seu cartão Mastercard;\r\n6. Sucesso! As alterações já estão salvas.\r\n\r\nVocê receberá no e-mail cadastrado em sua Conta Digital, o retorno da análise de sua solicitação. Você também poderá acessar novamente o menu para confirmar a alteração.\r\n",
+        "keys": [
+          "informações pessoais",
+          "atualização",
+          "cadastro",
+          " cadastrado",
+          "celular",
+          "dado",
+          " dados",
+          "e-mail",
+          " email",
+          " emails",
+          "fixo",
+          "modifico",
+          " mudo",
+          " troco",
+          " edito",
+          "prazo",
+          " período",
+          "senha",
+          " senhas",
+          "SMS",
+          "telefone",
+          " telefones",
+          "token"
+        ],
+        "categories": [
+          "6"
+        ],
+        "id": 9
+      },
+      {
+        "ask": "Como altero o cadastro para o meu nome social?",
+        "answer": "Todas as análises para esse caso são feitas através de e-mail. Envie seu documento de identificação atualizado e digitalizado para atendimentocontadigital@bancointer.com.br.\r\n\r\n",
+        "keys": [
+          "nome social",
+          "atualização",
+          "digitalizado",
+          "documento",
+          " documentação",
+          "e-mail",
+          " email",
+          " emails"
+        ],
+        "categories": [
+          "6"
+        ],
+        "id": 10
+      },
+      {
+        "ask": "Como funciona o processo de autenticação das operações?",
+        "answer": "A autenticação das operações é realizada através de um token enviado por SMS/e-mail ou pela senha do seu cartão Mastercard. Essas opções estão disponíveis para operações realizadas pelo Internet Banking e app.\r\n \r\nCaso escolha a opção AUTENTICAR POR SMS será enviado um código de autenticação por SMS no celular cadastrado e também por e-mail. Insira o código no campo em branco e depois clique em CONFIRMAR.\r\n \r\nCaso escolha a opção AUTENTICAR PELA SENHA MASTERCARD, digite a senha do seu cartão e confirme.\r\n",
+        "keys": [
+          "internet banking",
+          " IB",
+          "app",
+          " aplicativo",
+          "autenticação",
+          "autorização",
+          "código",
+          " códigos",
+          "confirmação",
+          " confirmada",
+          "e-mail",
+          " email",
+          " emails",
+          "senha",
+          " senhas",
+          "SMS",
+          "token",
+          "validação"
+        ],
+        "categories": [
+          "24"
+        ],
+        "id": 11
+      },
+      {
+        "ask": "Como faço para habilitar o recebimento de SMS e push no app?",
+        "answer": "Para habilitar o recebimento de push (notificações do aplicativo), siga os passos abaixo:\r\n\r\n1. Clique em SERVIÇOS;\r\n2. Acesse DESBLOQUEIO APARELHO;\r\n3. Confirme no botão ACEITAR PUSH.\r\n4. Sucesso! O recebimento de push já está habilitado.",
+        "keys": [
+          "desbloqueio",
+          " desbloquear",
+          "envio",
+          "habilitado",
+          " habilitação",
+          " habilitar"
+        ],
+        "categories": [
+          "24"
+        ],
+        "id": 12
+      },
+      {
+        "ask": "A minha Conta Digital possui cheque especial ou talão de cheques?",
+        "answer": "Atualmente a Conta Digital não possui linhas de crédito pessoal, tais como limite de cheque especial ou emissão de cheques.",
+        "keys": [
+          "cheque especial",
+          "crédito pessoal",
+          "emissão de cheques",
+          "limite de cheque especial",
+          "talão de cheques"
+        ],
+        "categories": [
+          "8"
+        ],
+        "id": 13
+      },
+      {
+        "ask": "Como peço o aumento de limite para transferências, pagamentos ou emissão de boletos?",
+        "answer": "Para solicitar o aumento no limite de transferências, pagamentos ou emissão de boletos, siga os passos abaixo:\r\n\r\n1. Acesse sua conta através do site https://www.bancointer.com.br; \r\n2. No menu, clique em CONTA DIGITAL;\r\n3. Acesse a opção LIMITES DE TRANSAÇÃO;\r\n5. Na tabela ao lado esquerdo estão dispostos os seus limites atuais, agora preencha os campos do lado direito com os limites desejados*;\r\n6. Clique em ENVIAR;\r\n7. Sucesso! A sua solicitação será analisada em até 1 dia útil e o retorno será dado por e-mail.\r\n\r\n*O aumento de limite será concedido mediante movimentações em conta condizentes com o número solicitado. Novas solicitações poderão ser realizadas a cada 15 dias.\r\n",
+        "keys": [
+          "aumento de limite",
+          " aumento de limites",
+          "limites de transação",
+          "prazo",
+          " período",
+          "movimentação",
+          " movimentações"
+        ],
+        "categories": [
+          "8"
+        ],
+        "id": 14
+      },
+      {
+        "ask": "Posso antecipar a restituição do meu Imposto de Renda através do Banco Inter?",
+        "answer": "Sim, os correntistas do Banco Inter contam com o serviço de antecipação da restituição do Imposto de Renda, seguindo os critérios abaixo:\r\n\r\n- É necessário ser correntista do Banco Inter;\r\n- Cadastrar no sistema da Receita Federal os dados da sua Conta Digital do Banco Inter para o recebimento da restituição;\r\n- O valor mínimo liberado é de R$1.900,00 e o máximo R$7.000,00;\r\n- Trabalhamos com a taxa a partir de 3,49% a.m, sendo uma das menores do mercado.\r\n\r\n*Mais informações entre em contato no 3003 4070 Opção 3 e fale com um dos nossos consultores",
+        "keys": [
+          "imposto de renda",
+          "receita federal",
+          "antecipar",
+          " antecipação",
+          "IR",
+          "restituição"
+        ],
+        "categories": [
+          "8"
+        ],
+        "id": 15
+      },
+      {
+        "ask": "Quais as características do cartão Mastercard do Banco Inter?",
+        "answer": "O seu cartão Mastercard é múltiplo, ou seja, possui as funções de débito e crédito em um mesmo cartão.\r\n\r\nO débito já está automaticamente habilitado para uso, mediante o saldo em conta. Já a função crédito é liberada apenas após sua aprovação da análise de crédito.",
+        "keys": [
+          "análise de crédito",
+          "cartão de crédito",
+          "cartão mastercard",
+          "função de crédito",
+          " função crédito",
+          "função de débito",
+          " função débito",
+          "saldo em conta",
+          " saldo disponível",
+          "aprovação",
+          " aprovar",
+          " aprovado",
+          " aprovada",
+          "múltiplo",
+          "prazo",
+          " período"
+        ],
+        "categories": [
+          "9"
+        ],
+        "id": 16
+      },
+      {
+        "ask": "Qual o prazo para o recebimento do cartão?",
+        "answer": "Assim que sua conta é confirmada por e-mail, o cartão é automaticamente emitido e enviado por meio da transportadora Flash Courier. Orientamos que aguarde o prazo máximo de 15 dias úteis para recebê-lo em seu endereço residencial.\r\n\r\nVocê também receberá um código de rastreio dessa entrega logo após 4 dias úteis da confirmação da abertura de sua conta.",
+        "keys": [
+          "dias úteis",
+          " dia útil",
+          "endereço residencial",
+          "prazo máximo",
+          "recebimento de cartão",
+          "correio",
+          " Correios",
+          "e-mail",
+          " email",
+          " emails",
+          "endereço",
+          "entrega",
+          "envio"
+        ],
+        "categories": [
+          "9"
+        ],
+        "id": 17
+      },
+      {
+        "ask": "Como solicito a segunda via do meu cartão Mastercard?",
+        "answer": "A segunda via pode ser solicitada somente através da nossa Central de Cartões: 3003-4070 - opção 2 (para capitais e regiões metropolitanas) demais localidades 0800 940 0007 - opção 2. \r\nLembre-se que o seu cartão atual será bloqueado para a sua segurança e você só poderá voltar a utilizar os serviços do cartão com a chegada do novo.",
+        "keys": [
+          "cartão de crédito",
+          "cartão mastercard",
+          "central de cartões",
+          "segunda via",
+          " 2a via 2ª via",
+          "bloqueio",
+          " bloqueado",
+          "segurança. Seguros"
+        ],
+        "categories": [
+          "9"
+        ],
+        "id": 18
+      },
+      {
+        "ask": "Não recebi a senha do meu cartão da Conta Digital. O que faço?",
+        "answer": "Ao desbloquear o seu cartão Mastercard pelo Internet Banking ou Aplicativo, você deverá criar uma senha de 4 dígitos de sua preferência para utilização do cartão. ",
+        "keys": [
+          "cartão mastercard",
+          " IB",
+          "primeiro acesso",
+          "senha numérica",
+          "ativar",
+          " ativação",
+          "bloqueio",
+          " bloqueado",
+          "definir",
+          " setar",
+          " gravar",
+          " criar",
+          "desbloqueio",
+          " desbloquear",
+          "habilitado",
+          " habilitação",
+          " habilitar",
+          "senha",
+          " senhas"
+        ],
+        "categories": [
+          "9"
+        ],
+        "id": 19
+      },
+      {
+        "ask": "Como eu faço a alteração de senha do cartão via Internet Banking?",
+        "answer": "Você poderá redefinir a senha do seu cartão Mastercard a qualquer momento seguindo os passos abaixo:\r\n\r\n1.\tNo menu, acesse a opção CARTÃO;\r\n2.\tEm seguida, vá em CONSULTAR CARTÕES;\r\n3.\tLocalize o seu cartão de acordo com a numeração e clique no botão ALTERAR SENHA;\r\n4.\tPreencha a sua senha atual e uma nova senha numérica de 4 dígitos;\r\n5.\tClique em SALVAR;\r\n6.\tPronto! A sua senha já está alterada.",
+        "keys": [
+          "4 dígitos",
+          " quatro dígitos",
+          "cartão de crédito",
+          "cartão mastercard",
+          "internet banking",
+          " IB",
+          "não lembro",
+          " resetar",
+          " refazer",
+          " redefinir",
+          "senha numérica",
+          "modifico",
+          " mudo",
+          " troco",
+          " edito",
+          "senha",
+          " senhas"
+        ],
+        "categories": [
+          "9"
+        ],
+        "id": 20
+      },
+      {
+        "ask": "Como eu faço a alteração da senha do cartão pelo app?",
+        "answer": "Você poderá redefinir a senha do seu cartão Mastercard a qualquer momento seguindo os passos abaixo:\r\n\r\n1.\tNo menu, acesse a opção CARTÃO;\r\n2.\tEm seguida, vá em SENHA;\r\n3.\tLocalize o seu cartão de acordo com a numeração e clique no botão ALTERAR MINHA SENHA;\r\n4.\tPreencha a sua senha atual e uma nova senha numérica de 4 dígitos;\r\n5.\tClique em CONFIRMAR;\r\n6.\tPronto! A sua senha já está alterada.\r\n",
+        "keys": [
+          "4 dígitos",
+          " quatro dígitos",
+          "cartão de crédito",
+          "cartão mastercard",
+          "não lembro",
+          " resetar",
+          " refazer",
+          " redefinir",
+          "senha numérica",
+          "app",
+          " aplicativo",
+          "modifico",
+          " mudo",
+          " troco",
+          " edito",
+          "senha",
+          " senhas"
+        ],
+        "categories": [
+          "9"
+        ],
+        "id": 21
+      },
+      {
+        "ask": "Como eu desbloqueio o meu cartão via Internet Banking?",
+        "answer": "Para ativar o seu cartão Mastercard, faça o desbloqueio seguindo os passos abaixo:\r\n\r\n1. Acesse o site https://www.bancointer.com.br/;\r\n2. No menu, acesse a opção CARTÃO;\r\n3. Em seguida, clique em CONSULTAR CARTÕES;\r\n4. Localize o seu cartão, de acordo com a numeração, e depois vá em ATIVAR - Ative agora seu cartão;\r\n5. Preencha as informações (esteja com ele em mãos) e grave uma senha numérica de 4 dígitos clicando em SALVAR;\r\n6. Pronto! O seu cartão já está pronto para uso.",
+        "keys": [
+          "4 dígitos",
+          " quatro dígitos",
+          "cartão de crédito",
+          "cartão mastercard",
+          "internet banking",
+          " IB",
+          "primeiro acesso",
+          "senha numérica",
+          "ativar",
+          " ativação",
+          "bloqueio",
+          " bloqueado",
+          "definir",
+          " setar",
+          " gravar",
+          " criar",
+          "desbloqueio",
+          " desbloquear",
+          "habilitado",
+          " habilitação",
+          " habilitar",
+          "numeração",
+          "senha",
+          " senhas"
+        ],
+        "categories": [
+          "9"
+        ],
+        "id": 22
+      },
+      {
+        "ask": "Como eu desbloqueio o meu cartão pelo app?",
+        "answer": "Para ativar o seu cartão Mastercard, faça o desbloqueio seguindo os passos abaixo:\r\n\r\n1. No menu, acesse a opção CARTÃO;\r\n2. Clique em ATIVAR - Ative agora seu cartão;\r\n3. Preencha as informações (esteja com ele em mãos) e grave uma senha numérica de 4 dígitos clicando em CONFIRMAR;\r\n4. Pronto! O seu cartão já está pronto para uso.",
+        "keys": [
+          "4 dígitos",
+          " quatro dígitos",
+          "cartão de crédito",
+          "cartão mastercard",
+          "primeiro acesso",
+          "senha numérica",
+          "app",
+          " aplicativo",
+          "ativar",
+          " ativação",
+          "bloqueio",
+          " bloqueado",
+          "definir",
+          " setar",
+          " gravar",
+          " criar",
+          "desbloqueio",
+          " desbloquear",
+          "habilitado",
+          " habilitação",
+          " habilitar",
+          "numeração",
+          "senha",
+          " senhas"
+        ],
+        "categories": [
+          "9"
+        ],
+        "id": 23
+      },
+      {
+        "ask": "Estou tendo problemas com o desbloqueio do cartão. O que devo fazer?",
+        "answer": "Caso você não esteja conseguindo desbloquear o seu cartão Mastercard pelo Internet Banking ou app, pedimos para que entre em contato conosco através do telefone 3003-4070 - opção 2 (para capitais e regiões metropolitanas) demais localidades 0800 940 0007 - opção 2. Este canal fica disponível 24 horas por dia e 7 dias por semana.por semana.",
+        "keys": [
+          "cartão de crédito",
+          "cartão mastercard",
+          "central de cartões",
+          "internet banking",
+          " IB",
+          "não estou conseguindo",
+          "app",
+          " aplicativo",
+          "bloqueio",
+          " bloqueado",
+          "desbloqueio",
+          " desbloquear",
+          "problemas",
+          " dificuldade",
+          " impossilidade"
+        ],
+        "categories": [
+          "9"
+        ],
+        "id": 24
+      },
+      {
+        "ask": "Como bloqueio o meu cartão por perda ou roubo no Internet Banking?",
+        "answer": "Antes de entrar em contato com o nosso canal de atendimento, acesse o Internet Banking e realize o bloqueio temporário do cartão:\r\n\r\n1.\tNo menu, acesse a opção CARTÃO;\r\n2.\tClique na opção BLOQUEAR CARTÃO;\r\n3.\tLigue imediatamente para a nossa Central de Cartões no telefone 3003-4070 - opção 2. Este canal fica disponível 24 horas por dia e 7 dias por semana.\r\n",
+        "keys": [
+          "fui assaltado",
+          " fui roubado",
+          " fui furtado",
+          " fui sequestrado",
+          "bloqueio",
+          " bloqueado",
+          "desbloqueio",
+          " desbloquear",
+          "perdi",
+          " perda"
+        ],
+        "categories": [
+          "9"
+        ],
+        "id": 25
+      },
+      {
+        "ask": "Como bloqueio o meu cartão por perda ou roubo no app?",
+        "answer": "Antes de entrar em contato com o nosso canal de atendimento, acesse o app e realize o bloqueio temporário do cartão:\r\n\r\n1. No menu, acesse a opção CARTÃO;\r\n2. Localize o seu cartão e acesse CONFIGURAÇÕES;\r\n3. Clique na opção BLOQUEAR CARTÃO;\r\n4. Ligue imediatamente para a nossa Central de Cartões no telefone 3003-4070 - opção 2 (para capitais e regiões metropolitanas) demais localidades 0800 940 0007 - opção 2. Este canal fica disponível 24 horas por dia e 7 dias por semana.",
+        "keys": [
+          "central de cartões",
+          "app",
+          " aplicativo",
+          "assalto",
+          " roubo",
+          " furto",
+          " sequestro",
+          "bloquear",
+          "bloqueio",
+          " bloqueado",
+          "desbloqueio",
+          " desbloquear"
+        ],
+        "categories": [
+          "9"
+        ],
+        "id": 26
+      },
+      {
+        "ask": "Como faço uma compra virtual na função débito?",
+        "answer": "Atualmente, somente é possível realizar compras virtuais na função débito nos aplicativos do UBER e da Netflix.",
+        "keys": [
+          "função de débito",
+          " função débito",
+          "compra",
+          " compras",
+          "internet",
+          " web",
+          " sites",
+          " virtual",
+          "Uber",
+          " Netflix"
+        ],
+        "categories": [
+          "9"
+        ],
+        "id": 27
+      },
+      {
+        "ask": "Samsung Pay está disponível no Banco Inter?",
+        "answer": "Sim, é possível cadastrar todos os cartões do Banco Inter no aplicativo da Samsung. Este é um serviço de pagamento móvel grátis, seguro e fácil de usar. Pode ser usado para fazer compras em quase todos os locais em que são aceitos cartões de crédito ou débito.\r\n\r\nNa hora de pagar, selecione o cartão desejado e aproxime o celular do terminal de pagamento, depois é só autorizar o pagamento com a impressão digital ou PIN.",
+        "keys": [
+          "cartão de crédito",
+          "cartão mastercard",
+          "função de crédito",
+          " função crédito",
+          "função de débito",
+          " função débito",
+          "impressão digital",
+          "pagamento móvel",
+          "Samsung Pay",
+          "terminal de pagamento",
+          " maquininha de cartão",
+          " máquina de cartão",
+          "celular",
+          "grátis",
+          " gratuito",
+          "máquina",
+          " maquininha",
+          "pagamento",
+          " pagar",
+          "PIN",
+          "Samsung",
+          "seguro"
+        ],
+        "categories": [
+          "9"
+        ],
+        "id": 28
+      },
+      {
+        "ask": "Como solicito a ativação da função crédito do cartão Mastercard através do Internet Banking?",
+        "answer": "Antes de poder utilizar a função crédito do seu cartão Mastercard é preciso solicitar uma análise de crédito. Para isso, siga as instruções abaixo acessando sua conta no Internet Banking - https://www.bancointer.com.br/: \r\n\r\n1.\tNo menu, acesse a opção CARTÃO;\r\n2.\tClique na opção CONSULTAR CARTÕES;\r\n3.\tLocalize o seu cartão e clique no botão SOLICITAR LIMITE DE CRÉDITO;\r\n4.\tCaso possua* o último recibo da declaração de Imposto de Renda e do seu último Contracheque/Holerite, faça a importação dos arquivos nos campos correspondentes;\r\n5.\tClique em CONCLUIR;\r\n6.\tSucesso! A sua solicitação será analisada no prazo máximo de 7 dias e o retorno será dado exclusivamente por e-mail.\r\n\r\n*Esses documentos não são necessários para a análise de crédito, mas ajudam na aprovação.",
+        "keys": [
+          "análise de crédito",
+          "cartão de crédito",
+          "cartão mastercard",
+          "função de crédito",
+          " função crédito",
+          "importação de arquivo",
+          "imposto de renda",
+          "internet banking",
+          " IB",
+          "limite de crédito",
+          "arquivo",
+          " arquivos",
+          "ativar",
+          " ativação",
+          "bloqueio",
+          " bloqueado",
+          "contracheque",
+          " holerite",
+          "desbloqueio",
+          " desbloquear",
+          "documento",
+          " documentação",
+          "e-mail",
+          " email",
+          " emails",
+          "habilitado",
+          " habilitação",
+          " habilitar",
+          "importação",
+          "limite",
+          " limites",
+          "múltiplo",
+          "prazo",
+          " período",
+          "senha",
+          " senhas",
+          "solicito",
+          " solicitar",
+          " peço",
+          " pedir",
+          " quero",
+          " querer",
+          " preciso"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 29
+      },
+      {
+        "ask": "Qual o prazo para a análise de crédito do meu cartão Mastercard?",
+        "answer": "O prazo máximo para a análise do limite de crédito é de até 7 dias e o retorno será dado exclusivamente por e-mail.",
+        "keys": [
+          "análise de crédito",
+          "cartão de crédito",
+          "cartão mastercard",
+          "função de crédito",
+          " função crédito",
+          "limite de crédito",
+          "prazo máximo",
+          "aprovação",
+          " aprovar",
+          " aprovado",
+          " aprovada",
+          "confirmação",
+          " confirmada",
+          "e-mail",
+          " email",
+          " emails",
+          "limite",
+          " limites",
+          "prazo",
+          " período",
+          "senha",
+          " senhas",
+          "solicito",
+          " solicitar",
+          " peço",
+          " pedir",
+          " quero",
+          " querer",
+          " preciso"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 30
+      },
+      {
+        "ask": "Como faço para solicitar uma reavaliação no meu limite de crédito do cartão?",
+        "answer": "O Banco Inter faz uma reanálise no limite de crédito de forma automática, então não se preocupe! Se você já possui o crédito, não é necessário solicitar uma nova análise e, sempre que isso acontecer, você receberá um e-mail com o novo limite de crédito.",
+        "keys": [
+          "análise de crédito",
+          "aumento de limite",
+          " aumento de limites",
+          "cartão de crédito",
+          "cartão mastercard",
+          "função de crédito",
+          " função crédito",
+          "função de débito",
+          " função débito",
+          "limite de crédito",
+          "não estou conseguindo",
+          "aprovação",
+          " aprovar",
+          " aprovado",
+          " aprovada",
+          "e-mail",
+          " email",
+          " emails",
+          "habilitado",
+          " habilitação",
+          " habilitar",
+          "limite",
+          " limites",
+          "prazo",
+          " período",
+          "reavaliação",
+          " reavaliar",
+          "senha",
+          " senhas"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 31
+      },
+      {
+        "ask": "O meu limite de crédito foi reprovado. O que devo fazer?",
+        "answer": "Todas as solicitações para ativação da função crédito do cartão passam por uma análise de acordo com políticas internas definidas pelo Banco. Infelizmente não temos acesso aos fatores que causaram a não autorização. \r\nCaso seja do seu interesse, uma nova análise poderá ser feita após 180 dias da reprovação. \r\n\r\nAté lá, temos algumas dicas para aumentar as suas chances de ser contemplado com o crédito: \r\n- Receba o seu salário pela conta Inter (clique aqui e conheça sobre a portabilidade de salário);\r\n- Faça investimentos em nossos produtos de renda fixa;\r\n- Utilize o cartão na função débito;\r\n- Aproveite a conta para efetuar pagamentos, fazer transferências, entre outras movimentações. \r\nAssim, podemos conhecer melhor o seu perfil para liberação do limite de crédito! Continue aproveitando todas as vantagens da sua Conta Digital gratuita! ",
+        "keys": [
+          "análise de crédito",
+          "aumento de limite",
+          " aumento de limites",
+          "cartão de crédito",
+          "cartão mastercard",
+          "função de crédito",
+          " função crédito",
+          "limite de crédito",
+          "prazo mínimo",
+          "limite",
+          " limites",
+          "reprovado",
+          " reprovação",
+          "solicito",
+          " solicitar",
+          " peço",
+          " pedir",
+          " quero",
+          " querer",
+          " preciso"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 32
+      },
+      {
+        "ask": "Como faço para cancelar a função crédito do meu cartão Mastercard?",
+        "answer": "Para solicitar o cancelamento da função crédito do seu cartão, entre em contato no telefone 3003-4070 - opção 2 (para capitais e regiões metropolitanas) demais localidades 0800 940 0007 - opção 2. Este canal fica disponível 24 horas por dia e 7 dias por semana.\r\n\r\nCaso o cartão possua saldo devedor por compras realizadas, as faturas serão enviadas normalmente até a sua quitação total.",
+        "keys": [
+          "cartão de crédito",
+          "cartão mastercard",
+          "central de cartões",
+          "função de crédito",
+          " função crédito",
+          "limite de crédito",
+          "saldo devedor",
+          "bloquear",
+          "cancelar",
+          " cancelamento",
+          "compra",
+          " compras",
+          "fatura",
+          " faturas",
+          "limite",
+          " limites",
+          "quitar",
+          " quitação",
+          "solicito",
+          " solicitar",
+          " peço",
+          " pedir",
+          " quero",
+          " querer",
+          " preciso"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 33
+      },
+      {
+        "ask": "Como peço um cartão adicional?",
+        "answer": "O cartão adicional só pode ser solicitado pelo titular se já possui a função de crédito ativa. O limite será compartilhado entre os cartões, sendo 5 o número máximo de cartões adicionais.\r\n\r\nPara solicitar um cartão adicional, entre em contato no telefone 3003-4070 - opção 2 (para capitais e regiões metropolitanas) demais localidades 0800 940 0007 - opção 2. Este canal fica disponível 24 horas por dia e 7 dias por semana.",
+        "keys": [
+          "cartão adicional",
+          " cartões adicionais",
+          "cartão de crédito",
+          "cartão mastercard",
+          "central de cartões",
+          "função de crédito",
+          " função crédito",
+          "adicional",
+          " adicionais"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 34
+      },
+      {
+        "ask": "O cartão de crédito é internacional?",
+        "answer": "Sim, o seu cartão Mastercard já é emitido com a modalidade de uso internacional ativada.\r\n\r\nO uso internacional está limitado apenas para compras na função crédito, ou seja, é possível realizar compras em sites internacionais, mas a função de débito e saque não estão disponíveis fora do Brasil.",
+        "keys": [
+          "caixa eletrônico",
+          " caixas eletrônicos",
+          "cartão adicional",
+          " cartões adicionais",
+          "cartão de crédito",
+          "cartão mastercard",
+          "fora do Brasil",
+          " no exterior",
+          " na gringa",
+          "função de crédito",
+          " função crédito",
+          "não está disponível",
+          " não disponível",
+          " não é disponível",
+          "adicional",
+          " adicionais",
+          "bloqueio",
+          " bloqueado",
+          "débito",
+          "desbloqueio",
+          " desbloquear",
+          "exterior",
+          " internacional",
+          "habilitado",
+          " habilitação",
+          " habilitar",
+          "internet",
+          " web",
+          " sites",
+          " virtual",
+          "saque",
+          " saques",
+          "solicito",
+          " solicitar",
+          " peço",
+          " pedir",
+          " quero",
+          " querer",
+          " preciso"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 35
+      },
+      {
+        "ask": "Qual é a conversão do dólar nas transações internacionais?",
+        "answer": "O valor do dólar usado para compras internacionais é PTAX + 1% e o câmbio da operação ocorrerá na data fechamento da fatura, utilizando a cotação deste dia.\r\n\r\nO Imposto sobre Operações Financeiras (IOF) é de 6,38% e é cobrado em todas as transações internacionais.\r\n",
+        "keys": [
+          "6",
+          "38%",
+          "cartão de crédito",
+          "cartão internacional",
+          "cartão mastercard",
+          "conversão do dólar",
+          " conversão do dollar",
+          " conversão do câmbio",
+          "fora do Brasil",
+          " no exterior",
+          " na gringa",
+          "transações internacionais",
+          "compra",
+          " compras",
+          "dólar",
+          " dolar",
+          " dollar",
+          " euro",
+          " libra",
+          " pesos",
+          "exterior",
+          " internacional",
+          "fatura",
+          " faturas",
+          "imposto",
+          "internet",
+          " web",
+          " sites",
+          " virtual",
+          "IOF",
+          "PTAX",
+          " PTAX +1%"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 36
+      },
+      {
+        "ask": "Quais cartões Mastercard estão disponíveis no Banco Inter?",
+        "answer": "O cartão Mastercard Gold é enviado a todos os correntistas da Conta Digital, no momento da abertura da conta. \r\n\r\nPara clientes investidores, estão disponíveis os cartões Platinum para quem possui aplicação superior a R$50.000,00 e o cartão Black aos Investidores com aplicações superiores a R$250.000,00.\r\n\r\nComo patrocinador máster do São Paulo Futebol Clube, também disponibilizamos um cartão exclusivo para os torcedores, porém com um layout diferenciado.",
+        "keys": [
+          "cartão de crédito",
+          "cartão mastercard",
+          "cartão platinum",
+          " cartão black",
+          "cartão standard",
+          "cliente investidor",
+          " clientes investidores",
+          "mastercard platinum",
+          " mastercard black",
+          "patrocinador máster",
+          " patrocinador master",
+          " patrocínio master",
+          " patrocínio máster",
+          "São Paulo Futebol Clube",
+          " SPFC",
+          "aplicação",
+          " aplicações",
+          "investimento",
+          " investimentos",
+          " investidor",
+          " investidores"
+        ],
+        "categories": [
+          "9"
+        ],
+        "id": 37
+      },
+      {
+        "ask": "Quais são os benefícios dos cartões Mastercard Platinum e Mastercard Black?",
+        "answer": "Acesse os programas de benefícios diretamente nos sites dos cartões Mastercard:\r\n\r\nMastercard Platinum: http://www.mastercard.com/br/platinum\r\nMastercard Black: http://www.mastercard.com/br/black\r\n",
+        "keys": [
+          "cartão de crédito",
+          "cartão mastercard",
+          "cartão platinum",
+          " cartão black",
+          "mastercard platinum",
+          " mastercard black",
+          "não está disponível",
+          " não disponível",
+          " não é disponível",
+          "programa de benefício",
+          " programa de benefícios",
+          "programa de milhagem",
+          " programas de milhagem",
+          "benefício",
+          " benefícios",
+          " recompensa",
+          " recompensas",
+          "milhagem"
+        ],
+        "categories": [
+          "9"
+        ],
+        "id": 38
+      },
+      {
+        "ask": "Como solicito o meu cartão do São Paulo Futebol Clube?",
+        "answer": "Todo correntista do Banco Inter pode solicitar o cartão exclusivo do SPFC, mas será necessário bloquear o seu cartão antigo antes de começar a usar o novo cartão. Para isso, siga os passos abaixo:\r\n\r\n1.\tNo menu, clique em CARTÃO;\r\n2.\tAcesse a opção CONSULTAR CARTÕES;\r\n3.\tNo aviso acima do seu cartão, vá em CLIQUE E CONHEÇA;\r\n4.\tAgora clique no botão SOLICITAR CARTÃO;\r\n5.\tQuando o seu cartão do SPFC chegar, ligue e bloqueie o antigo em nossa Central de Cartões no telefone 3003-4070 - opção 2. Este canal fica disponível 24 horas por dia e 7 dias por semana.\r\n",
+        "keys": [
+          "cartão de crédito",
+          "cartão mastercard",
+          "cartão standard",
+          "central de cartões",
+          "São Paulo Futebol Clube",
+          "SPFC",
+          "ativar",
+          "ativação",
+          "grátis",
+          "gratuito",
+          "solicito",
+          "solicitar",
+          "peço",
+          "pedir",
+          "quero",
+          "querer",
+          "preciso"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 39
+      },
+      {
+        "ask": "Como faço a migração do cartão standard do Banco Inter para o cartão SPFC?",
+        "answer": "Para realizar a migração do seu limite de crédito e saldo de compras do cartão antigo para o cartão SPFC, entre em contato no telefone 3003-4070 - opção 2.  Este canal fica disponível 24 horas por dia e 7 dias por semana.",
+        "keys": [
+          "limite de crédito",
+          "São Paulo Futebol Clube",
+          " SPFC",
+          "limite",
+          " limites",
+          "migração"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 40
+      },
+      {
+        "ask": "As versões Gold, Platinum e Black estão disponíveis para o cartão do SPFC?",
+        "answer": "Não, atualmente está disponível somente a versão Standard do cartão SPFC.",
+        "keys": [
+          "cartão de crédito",
+          "cartão mastercard",
+          "cartão platinum",
+          " cartão black",
+          "cartão standard",
+          "mastercard platinum",
+          " mastercard black",
+          "não está disponível",
+          " não disponível",
+          " não é disponível",
+          "São Paulo Futebol Clube",
+          " SPFC"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 41
+      },
+      {
+        "ask": "O cartão de crédito Mastercard possui programa de milhagem?",
+        "answer": "No momento não, o Banco Inter está planejando um programa de recompensas para seus cartões de crédito, que em breve divulgaremos.\r\n\r\nEnquanto isso, você poderá utilizar o programa de vantagens próprio da Mastercard. Acesse o site www.mastercard.com.br/surpreenda e faça o cadastro.\r\n",
+        "keys": [
+          "cartão de crédito",
+          "cartão mastercard",
+          "cartão platinum",
+          " cartão black",
+          "cartão standard",
+          "função de crédito",
+          " função crédito",
+          "mastercard platinum",
+          " mastercard black",
+          "mastercard surpreenda",
+          "não está disponível",
+          " não disponível",
+          " não é disponível",
+          "programa de benefício",
+          " programa de benefícios",
+          "programa de milhagem",
+          " programas de milhagem",
+          "benefício",
+          " benefícios",
+          " recompensa",
+          " recompensas",
+          "milhagem"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 42
+      },
+      {
+        "ask": "Como faço para emitir a segunda via da fatura do cartão de crédito?",
+        "answer": "Após o fechamento* da fatura, você poderá emitir a segunda via, seguindo os passos abaixo:\r\n\r\n1.\tNo menu, clique em CARTÃO;\r\n2.\tAcesse a opção CONSULTAR CARTÕES;\r\n3.\tClique em FATURA MOVIMENTAÇÕES;\r\n4.\tNo filtro VENCIMENTO selecione a última fatura fechada e clique em VISUALIZAR;\r\n5.\tDepois clique no botão GERAR FATURA;\r\n6.\tSucesso! Sua fatura completa estará disponível em PDF.\r\n\r\n*No dia de fechamento da fatura a opção do PAGUE AQUI não está disponível, apenas a opção AVULSO, caso não seja a 1ª fatura.\r\n",
+        "keys": [
+          "cartão de crédito",
+          "cartão mastercard",
+          "data do fechamento",
+          "não está disponível",
+          " não disponível",
+          " não é disponível",
+          "pague aqui",
+          "primeira fatura",
+          " 1a fatura'",
+          " 1ª fatura",
+          "segunda via",
+          " 2a via 2ª via",
+          "avulso",
+          " avulsa",
+          "fatura",
+          " faturas",
+          "fechamento",
+          "fechou",
+          " fechada",
+          "gerar",
+          "movimentação",
+          " movimentações",
+          "PDF",
+          "solicito",
+          " solicitar",
+          " peço",
+          " pedir",
+          " quero",
+          " querer",
+          " preciso",
+          "vencimento"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 43
+      },
+      {
+        "ask": "Como é enviada a fatura do meu cartão de crédito Mastercard?",
+        "answer": "A fatura do cartão é enviada para o e-mail cadastrado no Banco Inter em até 4 dias antes do vencimento e todos os lançamentos do cartão estão disponibilizados no Internet Banking, para consulta. \r\n\r\nApós o fechamento da fatura, você também poderá emitir a segunda via 4 dias antes do vencimento seguindo os passos abaixo:\r\n\r\n1.\tNo menu, clique em CARTÃO;\r\n2.\tAcesse a opção CONSULTAR CARTÕES;\r\n3.\tClique em FATURA MOVIMENTAÇÕES;\r\n4.\tNo filtro VENCIMENTO selecione a última fatura fechada e clique em VISUALIZAR;\r\n5.\tDepois clique no botão GERAR FATURA;\r\n6.\tSucesso! Sua fatura completa estará disponível em PDF.\r\n\r\n*No dia de fechamento da fatura a opção do PAGUE AQUI não está disponível.",
+        "keys": [
+          "4 dias",
+          " até 4 dias antes",
+          "cartão de crédito",
+          "cartão mastercard",
+          "data do fechamento",
+          "internet banking",
+          " IB",
+          "não está disponível",
+          " não disponível",
+          " não é disponível",
+          "pague aqui",
+          "prazo mínimo",
+          "cadastro",
+          " cadastrado",
+          "e-mail",
+          " email",
+          " emails",
+          "envio",
+          "fatura",
+          " faturas",
+          "fechamento",
+          "fechou",
+          " fechada",
+          "gerar",
+          "lançamentos",
+          "movimentação",
+          " movimentações",
+          "PDF",
+          "vencimento"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 44
+      },
+      {
+        "ask": "Quando é o vencimento da fatura do cartão de crédito Mastercard?",
+        "answer": "Todo dia 10 é a data de vencimento padrão para faturas do cartão de crédito e o fechamento ocorre sempre no último dia do mês. Para outras datas, o fechamento ocorre sempre 10 dias antes do vencimento.\r\n\r\nCaso você precise alterar a data de vencimento da sua fatura (disponíveis dias 05, 20 ou 25) entre em contato no telefone 3003-4070 - opção 2 (para capitais e regiões metropolitanas) demais localidades 0800 940 0007 - opção 2. Este canal fica disponível 24 horas por dia e 7 dias por semana.",
+        "keys": [
+          "10 dias",
+          " dez dias",
+          "cartão de crédito",
+          "cartão mastercard",
+          "data do fechamento",
+          "data do vencimento",
+          "todo dia 10",
+          " todo dia dez",
+          "fatura",
+          " faturas",
+          "fechamento",
+          "fechou",
+          " fechada",
+          "vencimento"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 45
+      },
+      {
+        "ask": "Como realizo o Pagamento Avulso da fatura do cartão de crédito?",
+        "answer": "Para realizar o pagamento avulso, siga os passos abaixo: \r\n\r\n1. Acesse sua conta através do Internet Banking ou Aplicativo;\r\n2. Clique em Cartões;\r\n3. Selecione a fatura em aberto;\r\n4. Clique em Pagamento Avulso se estiver acessando através do Internet Banking;\r\n5. Clique em Antecipar Fatura se estiver acessando através do aplicativo;\r\n6. Realize a autenticação da operação através do token enviado por SMS/ e-mail, ou através da senha do cartão Mastercard;\r\n7. Sucesso! Você terá realizado o Pagamento Avulso de sua fatura. \r\n\r\n *Importante: Para utilizar este serviço, você deve ter pelo menos 1 fatura fechada.\r\n",
+        "keys": [
+          "cartão de crédito",
+          "cartão mastercard",
+          "internet banking",
+          " IB",
+          "limite de crédito",
+          "pague aqui",
+          "primeira fatura",
+          " 1a fatura'",
+          " 1ª fatura",
+          "app",
+          " aplicativo",
+          "fatura",
+          " faturas",
+          "fechou",
+          " fechada",
+          "pagamento",
+          " pagar",
+          "PIN",
+          "quitar",
+          " quitação"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 46
+      },
+      {
+        "ask": "A minha conta está inativa, o que devo fazer?",
+        "answer": "Toda Conta Digital tem o seu status alterado para inativo após um período superior a 6 meses, pela falta de movimentações. Para reativar sua conta e voltar a usufruir dos serviços do Banco Inter, faça uma TED ou DOC de qualquer valor para a sua conta no banco.",
+        "keys": [
+          "qualquer valor",
+          "dinheiro",
+          " espécie",
+          " cédulas",
+          "inativo",
+          " inativa",
+          "movimentação",
+          " movimentações",
+          "prazo",
+          " período",
+          "reativar",
+          " reativação",
+          "status",
+          "TED",
+          "transação",
+          " transações",
+          "DOC"
+        ],
+        "categories": [
+          "23"
+        ],
+        "id": 47
+      },
+      {
+        "ask": "Como faço para programar a fatura do cartão por débito automático?",
+        "answer": "Para incluir a fatura do seu cartão de crédito Mastercard em débito automático, siga os passos abaixo:\r\n\r\n1.\tNo menu, clique em CARTÃO;\r\n2.\tAcesse a opção CONSULTAR CARTÕES;\r\n3.\tAbaixo das informações de limites, localize a frase “Incluir fatura em débito automático” e clique em SAIBA MAIS;\r\n4.\tLeia atentamente as orientações sobre o serviço e confirme no botão QUERO ADERIR AO SERVIÇO;\r\n5.\tAceite os termos e condições;\r\n6.\tSucesso! A fatura do seu cartão já está programada para débito automático. \r\n\r\n*O valor do saldo devedor será retirado de sua Conta Digital na data de vencimento da fatura.",
+        "keys": [
+          "cartão de crédito",
+          "cartão mastercard",
+          "data do vencimento",
+          "débito automático",
+          "incluir fatura em débito automático",
+          "internet banking",
+          " IB",
+          "termos e condições",
+          "aceite",
+          " aceitar",
+          "aderir",
+          " adesão",
+          "fechou",
+          " fechada",
+          "incluir",
+          " inclusão",
+          "pagamento",
+          " pagar",
+          "programar",
+          " programação",
+          "solicito",
+          " solicitar",
+          " peço",
+          " pedir",
+          " quero",
+          " querer",
+          " preciso"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 48
+      },
+      {
+        "ask": "Os meus dados estão seguros com o Banco Inter?",
+        "answer": "Segurança é assunto prioritário no Banco Inter. Mantemos todas as políticas de sigilo bancário necessárias para que as informações de nossos correntistas não cheguem a terceiros. Além disso, nossos processos internos são constantemente revistos e novas tecnologias de segurança são estudadas e implantadas continuamente para reforçar a proteção de seus dados e movimentações bancárias.",
+        "keys": [
+          "sigilo bancário",
+          " sigilo",
+          "correntista",
+          " correntistas",
+          "dado",
+          " dados",
+          "informação",
+          " Informações",
+          "movimentação",
+          " movimentações",
+          "políticas",
+          " política",
+          "proteção",
+          " protegido",
+          " protegidas",
+          "segurança. Seguros",
+          "tecnologia",
+          " tecnologias",
+          "terceiros",
+          " terceiro",
+          "transação",
+          " transações",
+          "instituições financeiras",
+          " instituição financeira",
+          " instituição bancária",
+          " instituições bancárias"
+        ],
+        "categories": [
+          "22"
+        ],
+        "id": 49
+      },
+      {
+        "ask": "Como faço para cancelar a fatura por débito automático?",
+        "answer": "Caso precise desativar a fatura do seu cartão por débito automático, siga os passos abaixo:\r\n1.\tNo menu, clique em CARTÃO;\r\n2.\tAcesse a opção CONSULTAR CARTÕES;\r\n3.\tAbaixo das informações de limites, localize a frase “Fatura em débito automático” e clique em DESATIVAR;\r\n4.\tSucesso! A fatura do seu cartão por débito automático agora está desativada.\r\n",
+        "keys": [
+          "cartão de crédito",
+          "cartão mastercard",
+          "débito automático",
+          "cancelar",
+          " cancelamento",
+          "desativar",
+          "excluir",
+          "fatura",
+          " faturas"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 50
+      },
+      {
+        "ask": "O Banco Inter é uma instituição confiável?",
+        "answer": "O Banco Inter é uma instituição financeira com mais de 20 anos de mercado. Somos regulamentados pelo BACEN e possuímos a garantia do Fundo Garantidor de Crédito - FGC. Convidamos você a nos conhecer melhor, acessando nossas informações corporativas no link abaixo:\r\n\r\nhttps://bancointer.com.br/institucional/apresentacao-de-resultados.jsf",
+        "keys": [
+          "Banco Central",
+          " BACEN",
+          "Fundo Garantidor de Crédito",
+          " FGC"
+        ],
+        "categories": [
+          "22"
+        ],
+        "id": 51
+      },
+      {
+        "ask": "Como solicitar a minha inclusão no Cadastro Positivo?",
+        "answer": "Caso você deseje realizar o cadastro positivo, siga as instruções abaixo:\r\n\r\n1.\tAcesse o site https://bancointer.com.br/operacoes.jsf;\r\n2.\tPreencha e assine o formulário CADASTRO POSITIVO − TERMO DE ACEITE – AUTORIZAÇÃO;\r\n3.\tEnvie uma cópia digitalizada para o e-mail – atendimentocontadigital@bancointer.com.br;\r\n4.\tAgora é só acompanhar a inclusão.",
+        "keys": [
+          "cadastro positivo",
+          "termo de adesão",
+          " termo de aceite",
+          "acompanhar",
+          " acompanhamento",
+          "assinar",
+          " assinatura",
+          " assinado",
+          "autorização",
+          "cadastro",
+          " cadastrado",
+          "e-mail",
+          " email",
+          " emails",
+          "incluir",
+          " inclusão"
+        ],
+        "categories": [
+          "21"
+        ],
+        "id": 52
+      },
+      {
+        "ask": "Como eu faço o pagamento parcial da fatura?",
+        "answer": "Caso não seja possível realizar o pagamento do valor total da sua fatura, é possível realizar o pagamento de qualquer valor entre o mínimo e o total. E quando isso ocorrer, a próxima fatura incluirá lançamentos de multa e rotativo sobre o saldo devedor.\r\n\r\nAlém disso, na fatura enviada por e-mail, também são apresentadas opções de parcelamento do saldo devedor. Para aderir ao parcelamento, basta efetuar o pagamento do valor exato de uma parcela ofertada até a data de vencimento, e em cada uma de suas faturas futuras será cobrada a respectiva parcela até o fim do contrato de parcelamento.",
+        "keys": [
+          "cartão de crédito",
+          "cartão mastercard",
+          "data do vencimento",
+          "pagamento parcial",
+          "próxima fatura",
+          " fatura seguinte",
+          "qualquer valor",
+          "saldo devedor",
+          "valor mínimo",
+          "valor total",
+          "e-mail",
+          " email",
+          " emails",
+          "encargos",
+          "fatura",
+          " faturas",
+          "lançamentos",
+          "multa",
+          " multas",
+          "parcelamento",
+          " parcelas",
+          "rotativo"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 53
+      },
+      {
+        "ask": "Como acessar o Informe de Rendimentos no Banco Inter?",
+        "answer": "Para solicitar o Informe de Rendimentos (IR), siga os passos abaixo:\r\n\r\n1. Acesse sua conta através do site https://www.bancointer.com.br (a opção não está disponível no aplicativo);  \r\n2. No menu lateral, clique em SERVIÇOS;\r\n3. Acesse a opção Informe de Rendimentos (IR);\r\n4. Pronto! Agora é só baixar o documento.",
+        "keys": [
+          "fazer download",
+          " baixar",
+          "informe de rendimentos",
+          "acesso",
+          " acessar",
+          "documento",
+          " documentação",
+          "PDF",
+          "rendimentos",
+          " render"
+        ],
+        "categories": [
+          "20"
+        ],
+        "id": 54
+      },
+      {
+        "ask": "O que acontece quando atraso o pagamento da fatura do cartão de crédito?",
+        "answer": "Sempre que a fatura é paga fora da data de vencimento ou quando não é paga integralmente, uma multa é cobrada.\r\n\r\nApós a data de vencimento é cobrada uma multa de 2% sobre o saldo devedor + 5% de rotativo + IOF. O não pagamento do valor integral até o vencimento gera multas sobre o saldo devedor, rotativo e IOF para a fatura seguinte.",
+        "keys": [
+          "cartão de crédito",
+          "cartão mastercard",
+          "data do vencimento",
+          "fora da data",
+          "pagamento parcial",
+          "próxima fatura",
+          " fatura seguinte",
+          "saldo devedor",
+          "valor mínimo",
+          "valor total",
+          "atraso",
+          " atrasada",
+          "encargos",
+          "fatura",
+          " faturas",
+          "fechou",
+          " fechada",
+          "IOF",
+          "multa",
+          " multas",
+          "pagamento",
+          " pagar",
+          "prazo",
+          " período",
+          "rotativo",
+          "vencimento"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 55
+      },
+      {
+        "ask": "Como ficam as novas regras de parcelamento do Banco Central?",
+        "answer": "É possível realizar parcelamento da sua fatura do cartão de crédito Inter. As opções para realizar a operação estão disponíveis na fatura que é enviada por e-mail.\r\n\r\nPara aderir ao parcelamento, basta efetuar o pagamento do valor exato de uma parcela ofertada até a data de vencimento, e em cada uma de suas faturas futuras será cobrada a respectiva parcela até o fim do contrato de parcelamento.\r\n\r\n​",
+        "keys": [
+          "Banco Central",
+          " BACEN",
+          "cartão de crédito",
+          "cartão mastercard",
+          "internet banking",
+          " IB",
+          "pagamento parcial",
+          "próxima fatura",
+          " fatura seguinte",
+          "valor mínimo",
+          "atraso",
+          " atrasada",
+          "e-mail",
+          " email",
+          " emails",
+          "encargos",
+          "fatura",
+          " faturas",
+          "fechou",
+          " fechada",
+          "pagamento",
+          " pagar",
+          "parcelamento",
+          " parcelas",
+          "PDF",
+          "regra",
+          " regras"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 57
+      },
+      {
+        "ask": "Como realizar a portabilidade do meu salário para o Banco Inter?",
+        "answer": "Para solicitar a portabilidade do seu salário para a sua Conta Digital, siga as instruções abaixo:\r\n\r\n1. Acesse sua conta através do site https://www.bancointer.com.br; \r\n2. Clique na opção de SERVIÇOS;\r\n3. Acesse a opção PORTABILIDADE DE SALÁRIO;\r\n4. Faça o download, preencha e assine o formulário;\r\n5. Entregue o termo no banco onde seu salário é creditado atualmente. \r\n\r\nAtualmente o Banco Inter não possui convênio com o INSS para recebimento de aposentadoria. É possível solicitar a portabilidade de sua aposentadoria caso ele já esteja sendo creditado em alguma outra instituição bancária.\r\n\r\n* Este banco tem até 05 (cinco) dias úteis, contados do recebimento da sua solicitação, para processar o seu pedido.\r\n",
+        "keys": [
+          "aposentadoria",
+          " aposentado",
+          "assinar",
+          " assinatura",
+          " assinado",
+          "convênio",
+          "formulário",
+          "INSS",
+          "pedido",
+          " pedir",
+          "portabilidade",
+          " portar",
+          "prazo",
+          " período",
+          "processadas",
+          " processamento",
+          " processada",
+          " processar",
+          "receber",
+          " recebimento",
+          " recebido",
+          "salário",
+          "dias úteis",
+          " dia útil",
+          "instituições financeiras",
+          " instituição financeira",
+          " instituição bancária",
+          " instituições bancárias"
+        ],
+        "categories": [
+          "19"
+        ],
+        "id": 58
+      },
+      {
+        "ask": "Como faço para verificar o extrato da conta pelo app?",
+        "answer": "Para a verificar o extrato de sua Conta Digital, siga os passos abaixo:\r\n\r\n1. Acesse sua conta através do aplicativo;\r\n2. Clique em EXTRATO no início;\r\n3. Informe o período desejado;\r\n4. Os dados serão automaticamente atualizados no aplicativo.",
+        "keys": [
+          "app",
+          " aplicativo",
+          "consulta",
+          " consultar",
+          "emissão",
+          " emitir",
+          "extrato"
+        ],
+        "categories": [
+          "18"
+        ],
+        "id": 59
+      },
+      {
+        "ask": "Como faço para emitir o extrato da conta no Internet Banking?",
+        "answer": "Para a emissão do extrato de sua conta digital, siga os passos abaixo:\r\n\r\n1. Acesse sua conta através do site https://www.bancointer.com.br/; \r\n2. Clique em CONTA DIGITAL;\r\n3. Acesse a opção EXTRATO;\r\n4. Informe o período desejado e clique em CONSULTAR;\r\n5. Neste menu é possível exportar o seu extrato nos formatos PDF, OFX e CSV. ",
+        "keys": [
+          "consulta",
+          " consultar",
+          "emissão",
+          " emitir",
+          "extrato",
+          "OFX",
+          " CSV",
+          "PDF",
+          "internet banking",
+          " IB"
+        ],
+        "categories": [
+          "18"
+        ],
+        "id": 61
+      },
+      {
+        "ask": "Qual o prazo para a liberação de limite após o pagamento da fatura?",
+        "answer": "Se você realizar o pagamento da fatura através da sua conta do Banco Inter, em dias úteis até 19H45min, o limite é liberado automaticamente, no mesmo momento! \r\nCaso realize o pagamento após esse horário, ele será agendado para o próximo dia útil. \r\n\r\nSe você realizar o pagamento da fatura em outra instituição financeira, é necessário que aguarde o prazo de até 2 dias úteis para a liberação do limite. \r\n\r\n*Você poderá acompanhar a liberação de seu limite pelo Internet Banking ou Aplicativo acessando a opção de Cartão > Limite Disponível. ",
+        "keys": [
+          "cartão de crédito cartão mastercard data do fechamento data do vencimento fora da data internet banking IB liberação de limite liberar limite limite de crédito pagamento parcial pague aqui prazo máximo prazo mínimo próxima fatura fatura seguinte qualquer valor saldo devedor valor mínimo valor total antecipar antecipação app aplicativo avulso avulsa consulta consultar fatura faturas fechou fechada liberar liberação limite limites pagamento pagar PDF prazo período quitar quitação"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 62
+      },
+      {
+        "ask": "Como faço para visualizar a segunda via dos comprovantes?",
+        "answer": "Para ter acesso aos comprovantes das operações realizadas em sua Conta Digital, siga os passos abaixo:\r\n\r\n1. Acesse sua conta através do site https://www.bancointer.com.br/; \r\n2. Clique em CONTA DIGITAL;\r\n3. Acesse COMPROVANTES (2ª VIA) no menu;\r\n4. No filtro EXIBIR, selecione para qual tipo de operação deseja os comprovantes e depois informe o período de consulta;\r\n5. Clique em PESQUISAR;\r\n6. Pronto! Se desejar você poderá imprimir ou encaminhar o comprovante por e-mail. ",
+        "keys": [
+          "imprimir",
+          " impressão",
+          "operação",
+          " operações",
+          "solicito",
+          " solicitar",
+          " peço",
+          " pedir",
+          " quero",
+          " querer",
+          " preciso",
+          "segunda via",
+          " 2a via 2ª via",
+          "acesso",
+          " acessar",
+          "comprovante",
+          " comprovantes",
+          "e-mail",
+          " email",
+          " emails"
+        ],
+        "categories": [
+          "17"
+        ],
+        "id": 63
+      },
+      {
+        "ask": "Como faço para liberar o cartão de crédito para compras em sites e no exterior através do Internet Banking?",
+        "answer": "Antes de realizar compras em sites nacionais e internacionais e no exterior, é necessário habilitar este serviço pelo Internet Banking, para a sua própria segurança. \r\n\r\nSiga os passos abaixo:\r\n\r\n1. Acesse sua conta através do site https://www.bancointer.com.br; \r\n2. No menu, clique em CARTÃO;\r\n3. Acesse a opção CONSULTAR CARTÕES;\r\n4. Abaixo da imagem do cartão, irá aparecer as opções de: \r\n  - Compras Internacionais (compras em lojas físicas fora do Brasil)\r\n  - Compras Virtuais Nacionais (compras/ pagamentos online dentro do Brasil);\r\n  - Compras Virtuais Internacionais (compras/ pagamentos online fora do Brasil). \r\n5. Clique no cadeado e habilite a função de acordo com sua necessidade;\r\n6. Sucesso! O seu cartão já está liberado para realizar compras no exterior ou na internet.",
+        "keys": [
+          "cartão de crédito",
+          "cartão mastercard",
+          "função de crédito",
+          " função crédito",
+          "internet banking",
+          " IB",
+          "ativar",
+          " ativação",
+          "autorização",
+          "cadeado",
+          "desbloqueio",
+          " desbloquear",
+          "habilitado",
+          " habilitação",
+          " habilitar",
+          "internet",
+          " web",
+          " sites",
+          " virtual",
+          "liberar",
+          " liberação",
+          "Uber",
+          " Netflix"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 64
+      },
+      {
+        "ask": "Qual é o prazo para efetivação da recarga dos créditos para celular?",
+        "answer": "Se o valor referente a recarga já saiu da sua conta, a solicitação será processada pela operadora em um prazo máximo de 24 horas. \r\nCaso esse prazo seja excedido e a recarga não for disponibilizada, procure a operadora do seu celular para averiguar o ocorrido. ",
+        "keys": [
+          "operação",
+          " operações",
+          "operadora",
+          "pagamento",
+          " pagar",
+          "prazo",
+          " período",
+          "processadas",
+          " processamento",
+          " processada",
+          " processar",
+          "programar",
+          " programação",
+          "recarga",
+          " recarregar",
+          "crédito de celular",
+          "dias úteis",
+          " dia útil",
+          "prazo máximo",
+          "prazo mínimo",
+          "saldo em conta",
+          " saldo disponível",
+          "celular",
+          "compensar",
+          " compensação",
+          " compensamento"
+        ],
+        "categories": [
+          "16"
+        ],
+        "id": 65
+      },
+      {
+        "ask": "Como posso realizar saques de valores disponíveis na minha Conta Digital?",
+        "answer": "Você poderá realizar saques, sem cobrança de tarifas, em todo o território nacional, nos caixas do Banco24horas ou da rede Cirrus. \r\nO limite para essa operação é de R$ 3.000,00 (diário).\r\n\r\nPara localizar o caixa eletrônico do Banco24Horas mais próximo de você, acesse o link: http://bit.ly/Localizador-Banco24Horas\r\n\r\nPara localizar o caixa eletrônico da rede Cirrus mais próximo de você, acesse o link: http://bit.ly/Localizador-Cirrus\r\n\r\nRessaltamos que essa operação pode ser realizada somente na função débito, de acordo com o saldo disponível em sua conta corrente. ",
+        "keys": [
+          "caixa eletrônico",
+          " caixas eletrônicos",
+          "cartão mastercard",
+          "função de débito",
+          " função débito",
+          "saldo em conta",
+          " saldo disponível",
+          "ATM",
+          "Banco24Horas",
+          "Brasil",
+          " brazil",
+          " nacional",
+          "Cirrus",
+          " Rede Cirrus",
+          "cobrança",
+          "dinheiro",
+          " espécie",
+          " cédlula",
+          " cédulas",
+          "lançamentos",
+          "limite",
+          " limites",
+          "saque",
+          " saques",
+          "tarifas"
+        ],
+        "categories": [
+          "11"
+        ],
+        "id": 66
+      },
+      {
+        "ask": "O que é o Intersaque?",
+        "answer": "O Intersaque é um serviço fácil e simplificado de realizar saques nos ATMs (caixa eletrônico) do Banco Inter, através de um código gerado pelo app.\r\n\r\nAtualmente nossos ATMs estão disponíveis apenas em Belo Horizonte (cidade sede do banco).",
+        "keys": [
+          "caixa eletrônico",
+          " caixas eletrônicos",
+          "QR Code",
+          "app",
+          " aplicativo",
+          "ATM",
+          "código",
+          " códigos",
+          "dinheiro",
+          " espécie",
+          " cédlula",
+          " cédulas",
+          "Intersaque",
+          " Intersak",
+          " Intersac",
+          "saque",
+          " saques"
+        ],
+        "categories": [
+          "11"
+        ],
+        "id": 67
+      },
+      {
+        "ask": "Como faço recarga programada de créditos para celular?",
+        "answer": "Ao finalizar a operação de uma recarga, você poderá escolher se deseja repetir essa operação semanalmente ou mensalmente, e quantas vezes ela irá se repetir. Verifique as recargas futuras na opção de CONTA DIGITAL > AGENDAMENTOS.",
+        "keys": [
+          "operadora",
+          "prazo",
+          " período",
+          "processadas",
+          " processamento",
+          " processada",
+          " processar",
+          "programar",
+          " programação",
+          "recarga",
+          " recarregar",
+          "repetir",
+          "semanalmente",
+          "SMS",
+          "token",
+          "valor",
+          " valores",
+          "crédito de celular",
+          "agendada",
+          " agendar",
+          "celular",
+          "DDD",
+          "futura",
+          " futuras",
+          "mensalmente",
+          "operação",
+          " operações"
+        ],
+        "categories": [
+          "16"
+        ],
+        "id": 68
+      },
+      {
+        "ask": "Como faço um saque através do Intersaque?",
+        "answer": "Para fazer um saque utilizando esse serviço, siga os passos abaixo:\r\n\r\n1.\tNo menu do app, clique em INTERSAQUE;\r\n2.\tInforme o valor que deseja sacar;\r\n3.\tClique em GERAR CÓDIGO DE SAQUE;\r\n4.\tSerá solicitada uma autenticação por token SMS/e-mail ou pela senha do seu cartão Mastercard;\r\n5.\tUtilize o código de saque gerado diretamente no ATM do Banco Inter;\r\n6.\tSucesso! Aguarde o processamento e contagem das cédulas.\r\n",
+        "keys": [
+          "Belo Horizonte",
+          " BH",
+          " BHZ",
+          " bhorizonte",
+          "caixa eletrônico",
+          " caixas eletrônicos",
+          "QR Code",
+          "app",
+          " aplicativo",
+          "ATM",
+          "autorização",
+          "código",
+          " códigos",
+          "dinheiro",
+          " espécie",
+          " cédlula",
+          " cédulas",
+          "e-mail",
+          " email",
+          " emails",
+          "Intersaque",
+          " Intersak",
+          " Intersac",
+          "saque",
+          " saques",
+          "SMS",
+          "token"
+        ],
+        "categories": [
+          "11"
+        ],
+        "id": 69
+      },
+      {
+        "ask": "Como faço a recarga de um número de celular?",
+        "answer": "Para realizar uma recarga de créditos em um número de celular, siga os passos abaixo:\r\n\r\n1.\tAcesse a opção RECARGA DE CELULAR no menu;\r\n2.\tPreencha o número com DDD duas vezes;\r\n3.\tSelecione a operadora e informe o valor para crédito;\r\n4.\tEscolha a data para a recarga e clique em CONFIRMAR;\r\n5.\tAutentique a operação através do token, SMS ou senha do cartão Mastercard;\r\n6.\tPronto! A solicitação da recarga será processada pela sua operadora no prazo máximo de 24 horas.",
+        "keys": [
+          "prazo",
+          " período",
+          "processadas",
+          " processamento",
+          " processada",
+          " processar",
+          "recarga",
+          " recarregar",
+          "SMS",
+          "token",
+          "valor",
+          " valores",
+          "crédito de celular",
+          "prazo máximo",
+          "prazo mínimo",
+          "celular",
+          "DDD",
+          "operadora"
+        ],
+        "categories": [
+          "16"
+        ],
+        "id": 70
+      },
+      {
+        "ask": "Como faço para receber através do Interpag?",
+        "answer": "Para realizar pagamentos através do Interpag, siga os passos abaixo:\r\n\r\n1.\tNo menu do aplicativo, acesse a opção INTERPAG;\r\n2.\tClique no botão RECEBER;\r\n3.\tDefina o valor a ser pago*;\r\n4.\tPronto! Agora utilize o QR Code gerado para quem fará o pagamento e o valor será transferido na hora para você.\r\n\r\n* Não existe valor mínimo para essa transação.",
+        "keys": [
+          "transação",
+          " transações",
+          "transferência",
+          " transferências",
+          "valor",
+          " valores",
+          "QR Code",
+          "valor mínimo",
+          "código",
+          " códigos",
+          "Interpague",
+          " Interpag",
+          "pagamento",
+          " pagar"
+        ],
+        "categories": [
+          "15"
+        ],
+        "id": 71
+      },
+      {
+        "ask": "Como faço uma uma transferência da minha Conta Digital no Internet Banking?",
+        "answer": "O Banco Inter recebe TEDs e DOCs, mas envia somente TEDs. \r\n​\r\nPara realizar transferências entre contas através do Internet Banking, acesse o site https://www.bancointer.com.br/ e siga os passos abaixo:\r\n\r\n1. No menu, clique em CONTA DIGITAL;\r\n2. Acesse a opção TRANSFERÊNCIAS;\r\n3. Preencha todos os dados solicitados e o valor;\r\n4. Clique em ENVIAR;\r\n5. Após realizar conferência dos dados, clique em CONFIRMAR;\r\n6. Será solicitada uma autenticação por token que será enviado por SMS/e-mail ou pela senha do seu cartão Mastercard;\r\n7. Sucesso! A transferência já foi enviada.\r\n\r\nA TED deve ser realizada em dias úteis até às 16H40min, para que sua efetivação ocorra no mesmo dia. Após esse horário, em finais de semana e feriados, a transferência será processada no próximo dia útil.\r\nO sistema realizará tentativa para efetivar a transferência no dia útil programado às 06H30min. Caso não haja saldo disponível em conta no momento do processamento, novas tentativas serão feitas ao longo de todo o dia sendo a última às 17H.\r\n\r\n *Dados digitados incorretamente podem ocasionar devolução da TED em até 1 hora, desde que efetuada dentro do horário bancário.\r\n\r\n*O valor mínimo de transferência para outros bancos é de R$10,00. Não há valor mínimo para transferências entre contas Inter.",
+        "keys": [
+          "dias úteis",
+          " dia útil",
+          "final de semana",
+          " finais de semana",
+          " fds",
+          "horário bancário",
+          " horário do banco",
+          " expediente bancário",
+          "internet banking",
+          " IB",
+          "saldo em conta",
+          " saldo disponível",
+          "valor mínimo",
+          "autorização",
+          "código",
+          " códigos",
+          "compensar",
+          " compensação",
+          " compensamento",
+          "dado",
+          " dados",
+          "efetivação",
+          " efetivada",
+          " efetivar",
+          "e-mail",
+          " email",
+          " emails",
+          "pagamento",
+          " pagar",
+          "programar",
+          " programação",
+          "SMS",
+          "TED",
+          "token",
+          "transferência",
+          " transferências",
+          "valor",
+          " valores"
+        ],
+        "categories": [
+          "12"
+        ],
+        "id": 72
+      },
+      {
+        "ask": "Como faço para pagar através do Interpag?",
+        "answer": "Para realizar pagamentos através do Interpag, siga os passos abaixo:\r\n\r\n1.\tNo menu do aplicativo, acesse a opção INTERPAG;\r\n2.\tClique no botão PAGAR;\r\n3.\tFaça a leitura do QR Code;\r\n4.\tConfira o valor a ser pago* e autentique a operação;\r\n5.\tPronto! O valor pago será transferido ao Recebedor.\r\n\r\n* Não existe valor mínimo para essa transação.",
+        "keys": [
+          "transação",
+          " transações",
+          "transferência",
+          " transferências",
+          "valor",
+          " valores",
+          "QR Code",
+          "valor mínimo",
+          "código",
+          " códigos",
+          "Interpague",
+          " Interpag",
+          "pagamento",
+          " pagar"
+        ],
+        "categories": [
+          "15"
+        ],
+        "id": 73
+      },
+      {
+        "ask": "O que é o Interpag?",
+        "answer": "O Interpag é uma forma mais simples e moderna de pagar e receber recursos, via QR Code. Você pode utilizar em estabelecimentos comerciais ou entre amigos que tenham a Conta Digital do Banco Inter. É simples e gratuito!",
+        "keys": [
+          "estabelecimentos comerciais",
+          "QR Code",
+          "código",
+          " códigos",
+          "grátis",
+          " gratuito",
+          "Interpague",
+          " Interpag",
+          "pagamento",
+          " pagar",
+          "receber",
+          " recebimento",
+          " recebido",
+          "recurso",
+          " recursos"
+        ],
+        "categories": [
+          "15"
+        ],
+        "id": 74
+      },
+      {
+        "ask": "Como faço uma transferência da minha Conta Digital pelo app?",
+        "answer": "O Banco Inter recebe TEDs e DOCs, mas envia somente TEDs. \r\n\r\nPara realizar transferências entre contas através do aplicativo, siga os passos abaixo:\r\n\r\n1. Acesse sua conta através do aplicativo;\r\n2. No menu superior, clique em TRANSFERÊNCIAS;\r\n3. Preencha o valor e todos os dados solicitados;\r\n4. Clique em CONTINUAR;\r\n5. Será solicitada uma autenticação por token que será enviado por SMS/e-mail ou pela senha do seu cartão Mastercard;\r\n6. Sucesso! A transferência já foi enviada.\r\n\r\nA TED deve ser realizada em dias úteis até às 16H40min, para que sua efetivação ocorra no mesmo dia. Após esse horário, em finais de semana e feriados, a transferência será processada no próximo dia útil.\r\nO sistema realizará tentativa para efetivar a transferência no dia útil programado às 06H30min. Caso não haja saldo disponível em conta no momento do processamento, novas tentativas serão feitas ao longo de todo o dia sendo a última às 17H.\r\n\r\n*Dados digitados incorretamente podem ocasionar devolução da TED em até 1 hora, desde que efetuada dentro do horário bancário.\r\n\r\n*O valor mínimo de transferência para outros bancos é de R$10,00. \r\nNão há valor mínimo para transferências entre contas Inter.",
+        "keys": [
+          "dias úteis",
+          " dia útil",
+          "final de semana",
+          " finais de semana",
+          " fds",
+          "horário bancário",
+          " horário do banco",
+          " expediente bancário",
+          "saldo em conta",
+          " saldo disponível",
+          "valor mínimo",
+          "app",
+          " aplicativo",
+          "autorização",
+          "código",
+          " códigos",
+          "compensar",
+          " compensação",
+          " compensamento",
+          "dado",
+          " dados",
+          "efetivação",
+          " efetivada",
+          " efetivar",
+          "e-mail",
+          " email",
+          " emails",
+          "pagamento",
+          " pagar",
+          "programar",
+          " programação",
+          "SMS",
+          "TED",
+          "token",
+          "transferência",
+          " transferências",
+          "valor",
+          " valores"
+        ],
+        "categories": [
+          "12"
+        ],
+        "id": 75
+      },
+      {
+        "ask": "Como faço para colocar uma conta para pagamento por débito automático?",
+        "answer": "O Banco Inter já possui convênio para faturas em débito automático das empresas CEMIG, COPASA, SABESP, CELG, ALGAR TELECOM, ALGAR CELULAR, TIM, CELPE, COPEL e COELBA.\r\n\r\nPara adicionar uma ou mais contas em débito automático, siga os passos abaixo:\r\n\r\n1. Acesse sua conta através do site https://www.bancointer.com.br/; \r\n2. Clique em CONTA DIGITAL;\r\n3. Acesse CADASTRO DÉBITO AUTOMÁTICO;\r\n4. Selecione a empresa na listagem e clique em NOVO CADASTRO;\r\n5. Preencha o campo conforme a orientação (em caso de dúvida clique no botão “?”);\r\n6. Clique em SALVAR.\r\n\r\nO cadastro da fatura em débito automático deve ser realizado 30 dias antes do vencimento. Após o cadastro ser aceito pela empresa, o valor da fatura ficará disponível para consulta na opção de “Agendamentos”.",
+        "keys": [
+          "incluir fatura em débito automático",
+          "agendada",
+          " agendar",
+          "cadastro",
+          " cadastrado",
+          "CEMIG",
+          " COPASA",
+          " SABESP",
+          " CELG",
+          " ALGAR",
+          " ALGAR TELECOM",
+          " ALGAR CELULAR",
+          " TIM",
+          " CELPE",
+          " COELBA",
+          "convênio",
+          "incluir",
+          " inclusão",
+          "pagamento",
+          " pagar",
+          "prazo",
+          " período",
+          "programar",
+          " programação",
+          "solicito",
+          " solicitar",
+          " peço",
+          " pedir",
+          " quero",
+          " querer",
+          " preciso",
+          "vencimento",
+          "data do vencimento",
+          "débito automático"
+        ],
+        "categories": [
+          "14"
+        ],
+        "id": 76
+      },
+      {
+        "ask": "Em qual horário as transferências agendadas serão processadas?",
+        "answer": "As transferências agendadas serão processadas no dia útil programado às 06H30min. Caso não haja saldo disponível em conta no momento do processamento, novas tentativas serão feitas às 8H, 9H, 10H, 14H, sendo a última às 17H.\r\nCaso não haja saldo disponível em conta após a última tentativa (17H), o pagamento não será processado. \r\n\r\n*Importante: dados digitados incorretamente podem ocasionar devolução da TED em até 1 hora, desde que efetuada dentro do horário bancário.\r\n",
+        "keys": [
+          "dias úteis",
+          " dia útil",
+          "final de semana",
+          " finais de semana",
+          " fds",
+          "horário bancário",
+          " horário do banco",
+          " expediente bancário",
+          "saldo em conta",
+          " saldo disponível",
+          "agendada",
+          " agendar",
+          "compensar",
+          " compensação",
+          " compensamento",
+          "dado",
+          " dados",
+          "efetivação",
+          " efetivada",
+          " efetivar",
+          "horas",
+          " horário",
+          "processadas",
+          " processamento",
+          " processada",
+          " processar",
+          "programar",
+          " programação",
+          "TED",
+          "transferência",
+          " transferências"
+        ],
+        "categories": [
+          "12"
+        ],
+        "id": 77
+      },
+      {
+        "ask": "Como faço para realizar pagamentos no Internet Banking?",
+        "answer": "Para realizar um pagamento através do Internet Banking, siga os passos abaixo:\r\n\r\n1. Acesse sua conta através do site https://www.bancointer.com.br/; \r\n2. No menu superior, clique em PAGAMENTOS;\r\n3. No campo Linha digitável, preencha com os números do código de barras da fatura ou do boleto a ser pago - se preferir, utilize um leitor óptico;\r\n4. Confira se os dados de vencimento estão corretos e selecione a data do pagamento;\r\n5. Preencha o campo com o e-mail de quem precisa receber o comprovante de pagamento (o titular da conta recebe uma cópia automaticamente);\r\n6. Sucesso! O pagamento será efetivado no mesmo dia, caso ocorra até 19H45min. \r\n\r\nSe o pagamento for realizado após 19H45min ou em finais de semana e feriados,  ele será processado no próximo dia útil. O sistema realizará tentativa para efetivar o pagamento no dia útil programado às 06H30min. Caso não haja saldo disponível em conta no momento do processamento, novas tentativas serão feitas ao longo de todo o dia sendo a última às 18H, de acordo com o saldo disponível em sua conta.",
+        "keys": [
+          "internet banking",
+          " IB",
+          "leitor ótico",
+          " leitor optico",
+          "saldo em conta",
+          " saldo disponível",
+          "agendada",
+          " agendar",
+          "boleto",
+          " boletos",
+          "código",
+          " códigos",
+          "comprovante",
+          " comprovantes",
+          "consulta",
+          " consultar",
+          "efetivação",
+          " efetivada",
+          " efetivar",
+          "e-mail",
+          " email",
+          " emails",
+          "pagamento",
+          " pagar",
+          "programar",
+          " programação",
+          "titular",
+          "vencimento",
+          "código de barras",
+          "dias úteis",
+          " dia útil"
+        ],
+        "categories": [
+          "14"
+        ],
+        "id": 78
+      },
+      {
+        "ask": "Como faço o cancelamento de um agendamento programado no Internet Banking?",
+        "answer": "Para realizar o cancelamento de um agendamento, siga os passos abaixo:\r\n \r\n1.\tNo menu, clique em AGENDAMENTOS;\r\n2.\tSelecione o período a ser consultado;\r\n3.\tIdentifique a transação dentro do período selecionado e clique no botão CANCELAR;\r\n4.\tSucesso! A programação da transferência está cancelada.\r\n",
+        "keys": [
+          "internet banking",
+          " IB",
+          "agendada",
+          " agendar",
+          "cancelar",
+          " cancelamento",
+          "programar",
+          " programação",
+          "TED",
+          "transferência",
+          " transferências"
+        ],
+        "categories": [
+          "12"
+        ],
+        "id": 79
+      },
+      {
+        "ask": "Como faço o cancelamento de um agendamento programado pelo app?",
+        "answer": "Para realizar o cancelamento de um agendamento, siga os passos abaixo:\r\n \r\n1.\tNo menu superior, clique em AGENDAMENTOS;\r\n2.\tPressione o agendamento que deseje cancelar levando a tela para a esquerda\r\n3.\tUma caixa com o “X” se abrirá ao lado para você clicar\r\n4.\tSucesso! A programação da transferência está cancelada.\r\n",
+        "keys": [
+          "agendada",
+          " agendar",
+          "app",
+          " aplicativo",
+          "cancelar",
+          " cancelamento",
+          "programar",
+          " programação",
+          "TED",
+          "transferência",
+          " transferências"
+        ],
+        "categories": [
+          "12"
+        ],
+        "id": 80
+      },
+      {
+        "ask": "Qual é o tempo para a compensação do cheque?",
+        "answer": "A compensação do cheque, após aprovado, contará a partir da data informada no campo BOM PARA, seguindo as regras abaixo:\r\n \r\nValores inferiores a R$ 299,99: compensação em até 3 dias úteis.\r\nValores superiores a R$ 299,99: compensação em até 2 dias úteis.",
+        "keys": [
+          "valores inferiores",
+          " valores superiores",
+          "aprovação",
+          " aprovar",
+          " aprovado",
+          " aprovada",
+          "compensar",
+          " compensação",
+          " compensamento",
+          "prazo",
+          " período",
+          "regra",
+          " regras",
+          "tempo",
+          "bom para",
+          "dias úteis",
+          " dia útil"
+        ],
+        "categories": [
+          "13"
+        ],
+        "id": 81
+      },
+      {
+        "ask": "Como faço para endossar o cheque?",
+        "answer": "Para endossar o cheque, é necessário que o titular do cheque assine o seu verso. E o correntista do Banco Inter precisa incluir os dados bancários (agência e conta) também no verso, próximo da assinatura.",
+        "keys": [
+          "agência",
+          "assinar",
+          " assinatura",
+          " assinado",
+          "correntista",
+          " correntistas",
+          "dado",
+          " dados",
+          "endossar",
+          " endosso",
+          "frente",
+          " verso",
+          "titular"
+        ],
+        "categories": [
+          "13"
+        ],
+        "id": 82
+      },
+      {
+        "ask": "Por quanto tempo devo armazenar o cheque físico?",
+        "answer": "Atendendo às regulamentações do Banco Central, é de responsabilidade do cliente a custódia do cheque durante o período de 60 dias, mesmo após o depósito. ",
+        "keys": [
+          "Banco Central",
+          " BACEN",
+          "dias úteis",
+          " dia útil",
+          "armazenar",
+          " armazenagem",
+          "cheque",
+          "cliente",
+          "compensar",
+          " compensação",
+          " compensamento",
+          "depósito",
+          " depósitos",
+          "físico",
+          "prazo",
+          " período",
+          "responsabilidade",
+          "tempo"
+        ],
+        "categories": [
+          "13"
+        ],
+        "id": 83
+      },
+      {
+        "ask": "A transferência voltou, o que aconteceu?",
+        "answer": "Quando os dados da conta de destino não são informados corretamente, o valor é automaticamente estornado de volta para a conta de origem. Sempre verifique se as informações seguem os critérios abaixo e realize uma nova transação:\r\n\r\n•\tTipo de conta: é poupança ou conta corrente?;\r\n•\tO nome do favorecido está completo, sem acentuação ou caracteres especiais? (ex: ç, @, &, e etc.);\r\n•\tNúmero do CPF ou CNPJ.\r\n\r\nPosteriormente, realize uma nova transação! ",
+        "keys": [
+          "atraso",
+          " atrasada",
+          "CNPJ",
+          "compensar",
+          " compensação",
+          " compensamento",
+          "CPF",
+          "dado",
+          " dados",
+          "dígito verificador",
+          "efetivação",
+          " efetivada",
+          " efetivar",
+          "estorno",
+          " estornado",
+          "estornada",
+          "favorecido",
+          " favorecida",
+          " favorecidos",
+          "incorretos",
+          " incorretamente",
+          "prazo",
+          " período",
+          "programar",
+          " programação",
+          "reprovado",
+          " reprovação",
+          "TED",
+          "transferência",
+          " transferências",
+          "valor",
+          " valores",
+          "voltou",
+          " voltar"
+        ],
+        "categories": [
+          "12"
+        ],
+        "id": 84
+      },
+      {
+        "ask": "Como realizar um depósito de cheque por imagem?",
+        "answer": "Para realizar a compensação de um cheque, siga os passos abaixo:\r\n\r\nNa primeira utilização é necessário aceitar o Termo de Adesão Cheque no Internet Banking:\r\n\r\n1. No menu, clique em CONTA DIGITAL;\r\n2. Em seguida, vá em DEPÓSITO DE CHEQUE POR IMAGEM;\r\n3. Leia e aceite o Termo de Adesão Cheque confirmando com a sua senha de acesso ao banco.\r\n\r\nAgora no app, clique em DEPÓSITO POR IMAGEM e siga os passos abaixo:\r\n\r\n1. Confira o cheque, confirme todas as etapas e clique em CONTINUAR;\r\n2. Preencha o valor do cheque, a data de compensação e a descrição do pagamento;\r\n3. Agora tire as fotos da frente e do verso do cheque e vá em CONTINUAR\r\n4. Sucesso! Você receberá um retorno da aprovação por e-mail e celular com as informações de compensação.\r\n\r\n*Se o envio da imagem for realizado até as 16h, o retorno será feito no mesmo dia e após esse horário, até as 16h do próximo dia útil.\r\n\r\n *A compensação do cheque ocorrerá em até 3 dias úteis após a data descrita no app após a aprovação.",
+        "keys": [
+          "dias úteis",
+          " dia útil",
+          "horário bancário",
+          " horário do banco",
+          " expediente bancário",
+          "internet banking",
+          " IB",
+          "primeira utilização",
+          "termo de adesão",
+          " termo de aceite",
+          "app",
+          " aplicativo",
+          "celular",
+          "cheque",
+          "compensar",
+          " compensação",
+          " compensamento",
+          "depósito",
+          " depósitos",
+          "e-mail",
+          " email",
+          " emails",
+          "imagem",
+          "pagamento",
+          " pagar",
+          "senha",
+          " senhas"
+        ],
+        "categories": [
+          "13"
+        ],
+        "id": 85
+      },
+      {
+        "ask": "Como faço o cadastro de favorecidos para futuras transferências?",
+        "answer": "Para realizar o cadastro de um favorecido, primeiro é preciso realizar uma transferência. Ao final da transação, clique na opção SALVAR FAVORECIDO; estes dados ficarão salvos no botão LISTAR FAVORECIDOS para facilitar transferências futuras.",
+        "keys": [
+          "conta corrente",
+          "conta poupança",
+          "salvar favorecido",
+          " listar favorecido",
+          "cadastro",
+          " cadastrado",
+          "CNPJ",
+          "CPF",
+          "dado",
+          " dados",
+          "dígito verificador",
+          "favorecido",
+          " favorecida",
+          " favorecidos",
+          "futura",
+          " futuras",
+          "programar",
+          " programação",
+          "TED",
+          "transferência",
+          " transferências"
+        ],
+        "categories": [
+          "12"
+        ],
+        "id": 86
+      },
+      {
+        "ask": "Qual o prazo de compensação do boleto para depósito?",
+        "answer": "Após o pagamento do boleto, o valor será creditado em sua conta corrente em até 2 dias úteis. Para clientes parceiros, esse prazo é de 1 dia útil.",
+        "keys": [
+          "prazo máximo",
+          "prazo mínimo",
+          "boleto",
+          " boletos",
+          "depósito",
+          " depósitos",
+          "pagamento",
+          " pagar",
+          "prazo",
+          " período",
+          "token",
+          "dias úteis",
+          " dia útil"
+        ],
+        "categories": [
+          "13"
+        ],
+        "id": 87
+      },
+      {
+        "ask": "Quais meios posso utilizar para depósito na Conta Digital?",
+        "answer": "É possível receber transferências interbancárias (TED ou DOC), realizar depósito de cheque por imagem e receber via QR Code pelo InterPag no Aplicativo. Disponibilizamos também o serviço de depósito por boleto, em que você irá gerar um boleto através do Internet Banking ou aplicativo. O pagamento pode ser feito em qualquer instituição financeira ou casa lotérica até a data de vencimento.",
+        "keys": [
+          "instituições financeiras",
+          " instituição financeira",
+          " instituição bancária",
+          " instituições bancárias",
+          "termos e condições",
+          "app",
+          " aplicativo",
+          "boleto",
+          " boletos",
+          "depósito",
+          " depósitos",
+          "DOC",
+          "pagamento",
+          " pagar",
+          "TED",
+          "transferência",
+          " transferências",
+          "valor",
+          " valores"
+        ],
+        "categories": [
+          "13"
+        ],
+        "id": 88
+      },
+      {
+        "ask": "Qual o prazo de compensação de DOC e TED em minha Conta Digital?",
+        "answer": "O prazo para a compensação do DOC em sua Conta Digital é de até 1 dia útil, e para TED é de até 2 horas, desde que ocorra em dias úteis até as 16H40min.",
+        "keys": [
+          "dias úteis",
+          " dia útil",
+          "depósito",
+          " depósitos",
+          "DOC",
+          "pagamento",
+          " pagar",
+          "prazo",
+          " período",
+          "TED",
+          "transferência",
+          " transferências"
+        ],
+        "categories": [
+          "13"
+        ],
+        "id": 89
+      },
+      {
+        "ask": "Como faço para gerar um boleto para depósito pelo app?",
+        "answer": "Para emitir um boleto para depósito, siga os passos abaixo:\r\n\r\n1.\tNo menu, acesse DEPÓSITO POR BOLETO;\r\n2.\tNo primeiro acesso, leia o termo e faça a autenticação por token em ACEITAR e PROSSEGUIR;\r\n3.\tAgora digite o valor do boleto, a data de vencimento* e clique em EMITIR;\r\n4.\tSucesso! O boleto será gerado no formato PDF e enviado para seu e-mail cadastrado.\r\n \r\n*Caso não ocorra o pagamento até a data de vencimento, o pagamento é automaticamente bloqueado.",
+        "keys": [
+          "autenticação",
+          "boleto",
+          "boletos",
+          "criar",
+          "depósito",
+          "depósitos",
+          "e-mail",
+          "email",
+          "emails",
+          "emissão",
+          "emitir",
+          "gerar",
+          "pagamento",
+          "pagar",
+          "PDF",
+          "sacado",
+          "SMS",
+          "token",
+          "vencimento"
+        ],
+        "categories": [
+          "13"
+        ],
+        "id": 90
+      },
+      {
+        "ask": "Como faço para gerar um boleto para depósito no Internet Banking?",
+        "answer": "Para emitir um boleto para depósito, siga os passos abaixo:\r\n\r\n1.\tNo menu, clique em CONTA DIGITAL;\r\n2.\tEm seguida, acesse DEPÓSITO POR BOLETO;\r\n3.\tNo primeiro acesso, leia o termo e faça a autenticação por token em ACEITAR e PROSSEGUIR;\r\n4.\tAgora digite o valor do boleto e selecione o TIPO SACADO;\r\n5.\tEm MANTER SACADO DA CONTA, o sacado permanece o titular da conta e na opção ALTERAR SACADO DA CONTA, você poderá preencher os dados de quem pagará o boleto;\r\n6.\tEscolha a data de vencimento* e clique em EMITIR;\r\n7.\tSucesso! O boleto será gerado no formato PDF e enviado para seu e-mail cadastrado.\r\n \r\n*Caso não ocorra o pagamento até a data de vencimento, o pagamento do boleto é automaticamente bloqueado.",
+        "keys": [
+          "autenticação",
+          "boleto",
+          " boletos",
+          "criar",
+          "depósito",
+          " depósitos",
+          "e-mail",
+          " email",
+          " emails",
+          "emissão",
+          " emitir",
+          "gerar",
+          "pagamento",
+          " pagar",
+          "PDF",
+          "sacado",
+          "SMS",
+          "token",
+          "vencimento",
+          "internet banking",
+          " IB"
+        ],
+        "categories": [
+          "13"
+        ],
+        "id": 91
+      },
+      {
+        "ask": "Como funciona o depósito por boleto?",
+        "answer": "O depósito por boleto é uma forma de depositar dinheiro em sua Conta Digital gerando um boleto pelo Internet Banking ou app e pagando-o em qualquer instituição financeira. \r\nUtilizando este serviço você evita tarifas de transferências cobradas pelos outros bancos (ao utilizar DOC ou TED). \r\n\r\nA sua Conta Digital já é aberta com essa função habilitada. \r\nVocê poderá emitir até 30 boletos mensalmente, sendo o valor mínimo por boleto de R$20,00 e o máximo de R$ 15.000,00. \r\nVocê poderá solicitar aumento apenas do limite de quantidade de boletos, o valor mínimo e máximo não são passíveis de alteração (não é possível solicitar o aumento).\r\n\r\nRessaltamos que este serviço não possui a finalidade de cobrança, e caso não ocorra o pagamento até a data de vencimento, o pagamento é automaticamente bloqueado. Por isso, não há incidência de juros ou multa por atraso.",
+        "keys": [
+          "instituições financeiras",
+          " instituição financeira",
+          " instituição bancária",
+          " instituições bancárias",
+          "internet banking",
+          " IB",
+          "valor mínimo",
+          "app",
+          " aplicativo",
+          "atraso",
+          " atrasada",
+          "boleto",
+          " boletos",
+          "cobrança",
+          "depósito",
+          " depósitos",
+          "DOC",
+          "emissão",
+          " emitir",
+          "habilitado",
+          " habilitação",
+          " habilitar",
+          "Interpague",
+          " Interpag",
+          "juros",
+          "multa",
+          " multas",
+          "pagamento",
+          " pagar",
+          "recurso",
+          " recursos",
+          "TED",
+          "transferência",
+          " transferências",
+          "vencimento"
+        ],
+        "categories": [
+          "13"
+        ],
+        "id": 92
+      },
+      {
+        "ask": "Como eu crio a senha para acessar minha conta?",
+        "answer": "No momento que você realizar o primeiro acesso, será possível criar uma senha de 6 a 8 caracteres para acessar sua conta através do Internet Banking e Aplicativo.\r\n\r\nSiga os passos abaixo para realizar o primeiro acesso: \r\n\r\n1. Insira os dados da agência e conta enviados em seu e-mail;\r\n2. Clique em Acessar;\r\n3. Na próxima tela estará descrito o número da sua conta. Caso esteja correto, clique em Avançar;\r\n4. Descreva o número do seu CPF;\r\n5. Preencha os dados solicitados (Atenção! Os dados devem ser preenchidos de maneira idêntica ao preenchimento da Ficha Cadastral);\r\n6. Clique em Concluir.\r\n7. Será enviado um código para o seu e-mail e outro código para o seu celular via SMS e/ou PUSH. Assim que receber, inclua os dois códigos recebidos nos respectivos campos e selecione a opção de Confirmar.\r\n8. No primeiro teclado virtual crie uma senha de sua preferência (de 6 a 8 caracteres) e no 2º teclado virtual, repita a senha de sua preferência. \r\n9. Pronto! Agora você poderá aproveitar de todos os benefícios da Conta Digital, totalmente isenta de tarifas.",
+        "keys": [
+          "primeiro acesso",
+          "6 a 8 caracteres ",
+          "senha "
+        ],
+        "categories": [
+          "3"
+        ],
+        "id": 94
+      },
+      {
+        "ask": "Como faço para definir a forma em que vou receber notificações?",
+        "answer": "Ao abrir a conta, todas as notificações são parametrizadas para envio através de Push (notificação no aplicativo). Caso você queira definir a forma de recebimento das notificações, basta seguir os passos abaixo:\r\n\r\n1. Acesse sua conta através do site https://www.bancointer.com.br/;\r\n2. No menu, acesse a opção de Perfil;\r\n3. Selecione a forma que você deseja receber as notificações;\r\n4. Clique em Salvar;\r\n5. Será solicitada uma autenticação por token que será enviado por SMS/e-mail ou pela senha do seu cartão Mastercard;\r\n6. Sucesso! As notificações já estarão habilitadas da forma escolhida. \r\n\r\n*É possível habilitar notificações de SMS ou Push (não é possível habilitar os dois envios);\r\n*Algumas operações não poderão ser notificadas através de e-mail (compra, editar senha, estorno compra, estorno saque, saque).",
+        "keys": [
+          "notificações",
+          "SMS ",
+          "E-mail",
+          "push",
+          "habilitar"
+        ],
+        "categories": [
+          "24"
+        ],
+        "id": 95
+      },
+      {
+        "ask": "Esqueci a senha do cartão. Como faço para criar uma nova senha no Internet Banking?",
+        "answer": "Para definir uma nova senha do seu cartão Mastercard através do Internet Banking, siga as orientações abaixo:\r\n\r\n1. Acesse sua conta através do site https://www.bancointer.com.br/;\r\n2. Clique em Cartão e em seguida Consultar Cartões;\r\n3. Selecione a opção Esqueci minha senha;\r\n4. Preencha os dados de acordo com as informações descritas em seu cartão;\r\n5. Será solicitada a criação de uma nova senha de 4 dígitos;\r\n6. Confirme a nova senha e clique em Salvar;\r\n7. Sucesso! Sua senha foi alterada.",
+        "keys": [
+          "esqueci,cartão,senha,4 números,4 dígitos,esqueci a senha"
+        ],
+        "categories": [
+          "9"
+        ],
+        "id": 96
+      },
+      {
+        "ask": "Esqueci a senha do cartão. Como faço para criar uma nova senha no aplicativo?",
+        "answer": "Para definir uma nova senha do seu cartão Mastercard através do aplicativo, siga as orientações abaixo:\r\n\r\n1. Acesse sua conta através do aplicativo;\r\n2. Clique em Cartão;\r\n3. Selecione a opção Senha e em seguida Esqueci minha senha;\r\n4. Preencha os dados de acordo com as informações descritas em seu cartão;\r\n5. Será solicitada a criação de uma nova senha de 4 dígitos;\r\n6. Redigite a nova senha e clique em Confirmar;\r\n7. Sucesso! Sua senha foi alterada.",
+        "keys": [
+          "esqueci,cartão,senha,4 números,4 dígitos,esqueci a senha"
+        ],
+        "categories": [
+          "9"
+        ],
+        "id": 97
+      },
+      {
+        "ask": "O que é o Pagamento Avulso da fatura do cartão de crédito?",
+        "answer": "A opção de Pagamento Avulso está disponível no Internet Banking e Aplicativo, para que a qualquer tempo, você possa realizar o pagamento de qualquer valor do saldo devedor da fatura que encontra-se em aberto, com a finalidade de liberar limite de crédito para realização de compras. \r\nSe você realizar o pagamento avulso, em dias úteis até 19H45min, o limite é liberado automaticamente, no mesmo momento! \r\nCaso realize o pagamento após esse horário, ele será agendado para o próximo dia útil. \r\n\r\n*Importante: Para utilizar este serviço, você deve ter pelo menos 1 fatura fechada.",
+        "keys": [
+          "pagamento avulso ,avulso,antecipar,liberar limite,pagamento,antecipar fatura"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 98
+      },
+      {
+        "ask": "Como faço para antecipar compras parceladas?",
+        "answer": "É possível antecipar o pagamento das compras parceladas realizadas em seu cartão. \r\n\r\nPara isso, é necessário que entre em contato no telefone 3003 4070 (para capitais/ regiões metropolitanas) ou 0800 940 0007 (para demais localidades), e selecione a opção 2 para solicitar a antecipação.\r\nEste canal fica disponível 24 horas por dia e 7 dias por semana.",
+        "keys": [
+          "antecipar,parcela,compras parceladas"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 99
+      },
+      {
+        "ask": "Paguei minha fatura do cartão de crédito em duplicidade. E agora?",
+        "answer": "Para pagamentos duplicados da fatura do seu cartão Mastercard, o valor entrará como crédito para a próxima fatura.\r\n\r\nO estorno do valor pago em duplicidade também é possível!\r\nCaso tenha interesse, oriento que entre em contato no telefone 3003 4070 (para capitais/ regiões metropolitanas) ou 0800 940 0007 (para demais localidades), e selecione a opção 2. Este canal fica disponível 24 horas por dia e 7 dias por semana.",
+        "keys": [
+          "duplicados ,duplicidade,pagamento duplicado,estorno"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 100
+      },
+      {
+        "ask": "Como posso negociar minha dívida do cartão de crédito?",
+        "answer": "Disponibilizamos plataformas para que você possa negociar sua dívida online! \r\n\r\nTrabalhamos com as empresas Acerto e Kitei, que possuem convênio com o Banco Inter para realizar negociação de faturas do cartão de crédito em atraso. \r\n\r\nPara conhecer mais sobre as empresas acesse os respectivos sites:  \r\n- Acerto: www.meuacerto.com.br;\r\n- Kitei: www.kitei.com.br. ",
+        "keys": [
+          "acerto,kitei,negociar,atraso,negociação,fatura "
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 101
+      },
+      {
+        "ask": "Recebi contato da Acerto para realizar negociação do cartão de crédito. A empresa é confiável?",
+        "answer": "Agora você poderá negociar sua dívida conosco em uma plataforma online! \r\n\r\nTrabalhamos com a empresa Acerto, que possui convênio com o Banco Inter para realizar negociação de faturas do cartão de crédito em atraso. \r\n\r\nCaso você tenha recebido algum contato por e-mail, SMS, redes sociais ou tenha interesse, acesse o site www.meuacerto.com.br e siga as orientações para verificar as possibilidades de negociação disponíveis. \r\n\r\nEm caso de dúvidas, entre em contato com os canais de atendimento disponíveis no site da empresa.",
+        "keys": [
+          "acerto",
+          "negociação",
+          "atraso",
+          "negociar"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 102
+      },
+      {
+        "ask": "Recebi contato da Kitei para realizar negociação do cartão de crédito. A empresa é confiável?",
+        "answer": "Agora você poderá negociar sua dívida conosco em uma plataforma online! \r\n\r\nTrabalhamos com a empresa Kitei, que possui convênio com o Banco Inter para realizar negociação de faturas do cartão de crédito em atraso. \r\n\r\nCaso você tenha recebido algum contato por e-mail, SMS, redes sociais ou tenha interesse, acesse o site www.kitei.com.br e siga as orientações para verificar as possibilidades de negociação disponíveis. \r\n\r\nEm caso de dúvidas, entre em contato com os canais de atendimento disponíveis no site da empresa.",
+        "keys": [
+          "kitei ,negociar,atraso,negociação"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 103
+      },
+      {
+        "ask": "Posso realizar saques na função crédito?",
+        "answer": "Atualmente não é possível realizar saques com o limite de crédito do cartão.\r\nOs saques estão disponíveis na função débito nos caixas do Banco24horas ou da rede Cirrus de acordo com o saldo disponível em sua conta corrente. ",
+        "keys": [
+          "saques,função crédito,saques a crédito"
+        ],
+        "categories": [
+          "11"
+        ],
+        "id": 104
+      },
+      {
+        "ask": "Como faço para realizar pagamentos através do Aplicativo?",
+        "answer": "Para realizar um pagamento através do aplicativo, siga os passos abaixo:\r\n\r\n1. Acesse sua conta através do aplicativo;\r\n2. No menu superior, clique em PAGAMENTOS;\r\n3. Faça a leitura do código de barras através do leitor óptico ou digite os números do código de barras do boleto a ser pago;\r\n4. Confira se os dados de vencimento estão corretos e selecione a data do pagamento;\r\n5. Preencha o campo com o e-mail de quem precisa receber o comprovante de pagamento (o titular da conta recebe uma cópia automaticamente);\r\n6. Sucesso! O pagamento será efetivado no mesmo dia, caso ocorra até 19H45min. \r\n\r\nSe o pagamento for realizado após 19H45min ou em finais de semana e feriados,  ele será processado no próximo dia útil. O sistema realizará tentativa para efetivar o pagamento no dia útil programado às 06H30min. Caso não haja saldo disponível em conta no momento do processamento, novas tentativas serão feitas ao longo de todo o dia sendo a última às 18H, de acordo com o saldo disponível em sua conta.",
+        "keys": [
+          ""
+        ],
+        "categories": [
+          "14"
+        ],
+        "id": 105
+      },
+      {
+        "ask": "Em qual horário os pagamentos agendados serão processados?",
+        "answer": "Os pagamentos agendados serão processados no dia útil programado às 06H30min. Caso não haja saldo disponível em conta no momento do processamento, novas tentativas serão feitas às 8H, 9H, 10H, 14H, 17H, sendo a última às 18H.\r\nCaso não haja saldo disponível em conta após a última tentativa (18H), o pagamento não será processado. ",
+        "keys": [
+          "agendados ,pagamentos ,agendamento,processado,horário"
+        ],
+        "categories": [
+          "14"
+        ],
+        "id": 106
+      },
+      {
+        "ask": "Posso realizar o pagamento de DARF através da Conta Digital?",
+        "answer": "Para efetuar o pagamento de DARF através da conta do Banco Inter, é necessário emitir o código de barras.\r\nSiga os passos abaixo para emiti-lo: \r\n\r\n1. Acesse o site http://idg.receita.fazenda.gov.br/orientacao/tributaria/pagamentos-e-parcelamentos/darf-calculo-e-impressao-programa-sicalc-1; \r\n2. Clique em Sicalcweb - Programa para Cálculo e Impressão de Darf On line;\r\n3. Acesse a opção de Contribuições da Pessoa Física ou Contribuições de Pessoa Jurídica (selecione o tipo de pessoa);\r\n4. Clique Pagamento;\r\n5. Selecione o Estado e Município;\r\n6. Insira o código da Receita que consta na DARF original;\r\n7. Descreva o período, valor principal e o número de processo (Referência), se houver;\r\n8. Digite o CNPJ e o código Captcha informado;\r\n9. Confira os campos preenchidos e certifique-se de que a DARF não está atrasada;\r\n10. Sucesso! A DARF será gerada com o código de barras e você conseguirá realizar o pagamento através da Conta Digital. \r\n\r\n*O código de barras só será gerado se a DARF não estiver em atraso",
+        "keys": [
+          "darf,pagamento,código de barras,sem código de barras,emitir "
+        ],
+        "categories": [
+          "14"
+        ],
+        "id": 107
+      },
+      {
+        "ask": "O que é Conta Digital PRO?",
+        "answer": "A Conta Digital PRO do Banco Inter é uma conta corrente empresarial totalmente gratuita e digital, composta de todas as ferramentas necessárias para boa gestão do dia a dia bancário de sua empresa. \r\n\r\nVocê poderá realizar transferências entre contas (banco Inter e demais bancos) gratuitas de qualquer valor, efetuar pagamento de boletos bancários, convênios, tributos, e impostos via Internet Banking, realizar folha de pagamento automática, gestão de acesso para cada usuário, autorização duplas de transações e criação de novos usuários com permissões para visualizações e movimentações pré-definidas por um usuário máster.\r\n\r\nAo abrir sua conta você receberá o cartão de débito Mastercard para realizar compras em débito e realizar saques em rede 24horas (saques gratuitos).\r\n\r\nAlém das principais funcionalidades para movimentação de conta, o acesso é integrado aos diversos produtos e serviços do Banco Inter, como: investimentos, IDTVM, seguros, câmbio e empréstimos.",
+        "keys": [
+          "pessoa juridica,pj,pro,empresarial,empresa,gestão,conta pro,conta digital pro"
+        ],
+        "categories": [
+          "25"
+        ],
+        "id": 108
+      },
+      {
+        "ask": "Como solicito o convite para abertura da Conta PRO?",
+        "answer": "Para solicitar o convite referente a Conta Digital PRO, acesse o site www.bancointer.com.br, clique em Conta Digital e em seguida Conta Digital PRO. Após efetuar a leitura das informações básicas sobre o serviço, acesse a opção de 'Solicite Convite Agora'. Preencha os dados solicitados e aguarde o retorno no e-mail cadastrado em sua Conta Pessoa Física. ",
+        "keys": [
+          "convite",
+          "como solicitar convite",
+          "conta pro",
+          "pj",
+          "pessoa jurídica",
+          "solicitar convite ",
+          "pro"
+        ],
+        "categories": [
+          "25"
+        ],
+        "id": 109
+      },
+      {
+        "ask": "Como o faturamento deve ser enviado?",
+        "answer": "O faturamento enviado deve estar de acordo com as seguintes diretrizes: \r\n\r\n1. Deve ser dos últimos 12 meses ou previsão para os próximos 12 meses. \r\n2. Em caso de empresa recente, envie os faturamentos já apurados e a previsão de faturamento dos próximos meses, sempre totalizando 12 meses; \r\n3. Não é aceito mês zerado. No caso do faturamento zero, é necessário realizar média dos outros meses;\r\n4. Deve ser assinado pelo Sócio Administrador;\r\n5. Deve conter dados da empresa no documento (Razão social e CNPJ).",
+        "keys": [
+          "conta pro ,faturamento,pj,pessoa juridica,cnpj,previsão,razão social"
+        ],
+        "categories": [
+          "25"
+        ],
+        "id": 110
+      },
+      {
+        "ask": "Posso cadastrar a Conta PRO para receber através das máquinas de cartão?",
+        "answer": "Você poderá domiciliar os valores recebidos através das maquininhas de cartão na Conta Digital PRO! Possuímos convênio com as principais credenciadoras do mercardo: SafraPay, Rede, Getnet, Cielo, Elavon, Stone, Vero, Bin, Global Payments e PagSeguro. \r\n\r\nPara aproveitar mais essa vantagem da sua Conta Digital PRO, basta entrar em contato com a sua credenciadora e solicitar a transferência de domicílio. ",
+        "keys": [
+          "máquina de cartão ,conta digital pro,pj,pessoa juridica,safrapay ,rede,getnet,cielo,elavon,stone,vero,bin,global payments,pag seguro"
+        ],
+        "categories": [
+          "25"
+        ],
+        "id": 111
+      },
+      {
+        "ask": "Quem pode solicitar o convite para a Conta Digital PRO?",
+        "answer": "O convite da Conta Digital PRO é exclusivo para correntistas da Conta Digital, portanto um dos sócios da empresa deve ter uma conta pessoa física cadastrada em seu CPF. ",
+        "keys": [
+          "convite ",
+          "conta pro",
+          "conta pessoa jurídica",
+          "pj",
+          "pessoa jurídica"
+        ],
+        "categories": [
+          "25"
+        ],
+        "id": 112
+      },
+      {
+        "ask": "Quais as características do cartão Mastercard da Conta Digital PRO?",
+        "answer": "O cartão Mastercard Micro Business é enviado a todos os clientes correntistas da Conta Digital PRO, somente com a função débito habilitada. A função crédito ainda não está disponível, visto que estamos estruturando nossos sistemas para habilitar a análise. ",
+        "keys": [
+          "conta pro ,pj,pessoa juridica,micro business,débito,cartão ,mastercard"
+        ],
+        "categories": [
+          "25"
+        ],
+        "id": 113
+      },
+      {
+        "ask": "Qual o prazo para o recebimento do cartão da Conta Digital PRO?",
+        "answer": "Após o recebimento do e-mail com os dados bancários, é necessário que aguarde o prazo máximo de 15 dias úteis para receber o cartão Micro Business no endereço de correspondência cadastrado. \r\nTambém será enviado ao e-mail cadastrado um código de rastreio dessa entrega logo após 4 dias úteis da confirmação da abertura de conta.",
+        "keys": [
+          "cartão,micro business,conta pro,pj,pessoa juridica,rastreio"
+        ],
+        "categories": [
+          "25"
+        ],
+        "id": 114
+      },
+      {
+        "ask": "O que é Conta Digital MEI?",
+        "answer": "A Conta Digital MEI do Banco Inter foi criada para atender especificadamente as empresas enquadradas como MEI de forma 100% digital e gratuita. É uma conta corrente empresarial para MEI, pensada para facilitar o dia-a-dia do seu negócio. Com essa modalidade, você faz todas as movimentações bancárias da sua empresa via Internet Banking ou App, com isenção total de tarifas.\r\n\r\nAo abrir sua conta você receberá o cartão de débito Mastercard para realizar compras em débito e realizar saques em rede 24horas (saques gratuitos). Além das principais funcionalidades para movimentação de conta, o acesso é integrado aos diversos produtos e serviços do Banco Inter, como: investimentos, IDTVM, seguros, câmbio e empréstimos.",
+        "keys": [
+          "conta mei,mei,Microempreendedor Individual "
+        ],
+        "categories": [
+          "26"
+        ],
+        "id": 115
+      },
+      {
+        "ask": "Quem pode solicitar o convite para a Conta Digital MEI?",
+        "answer": "A Conta Digital MEI é uma modalidade destinada às empresas enquadradas como MEI (Microempreendedor Individual). O CNPJ solicitante deve estar regularizado na Receita Federal como esta categoria de empresas e é necessário já ser correntista da Conta Digital Pessoa Física.",
+        "keys": [
+          "conta mei,mei,Microempreendedor Individual ,convite"
+        ],
+        "categories": [
+          "26"
+        ],
+        "id": 116
+      },
+      {
+        "ask": "Como faço para liberar o cartão de crédito para compras em sites e no exterior através do Aplicativo?",
+        "answer": "Antes de realizar compras em sites nacionais e internacionais e no exterior, é necessário habilitar este serviço pelo Internet Banking ou Aplicativo, para a sua própria segurança. \r\n\r\nSiga os passos abaixo para efetuar a liberação através do aplicativo:\r\n\r\n1. Acesse sua conta através do aplicativo; \r\n2. No menu, clique em CARTÃO;\r\n3. Acesse a opção CONFIGURAÇÕES;\r\n4. Abaixo da imagem do cartão, irá aparecer as opções de: \r\n  - Compras Internacionais (compras em lojas físicas fora do Brasil)\r\n  - Compras Virtuais Nacionais (compras/ pagamentos online dentro do Brasil);\r\n  - Compras Virtuais Internacionais (compras/ pagamentos online fora do Brasil). \r\n5. Clique no cadeado e habilite a função de acordo com sua necessidade;\r\n6. Sucesso! O seu cartão já está liberado para realizar compras no exterior ou na internet.",
+        "keys": [
+          "cartão de crédito ",
+          "cartão mastercard",
+          "função de crédito",
+          "função crédito",
+          "internet banking",
+          "app ",
+          "ativar",
+          "ativação",
+          "autorização",
+          "cadeado",
+          "desbloqueio",
+          "desbloquear",
+          "habilitado",
+          "habilitação",
+          "habilitar",
+          "internet",
+          "Uber",
+          "Netflix"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 117
+      },
+      {
+        "ask": "Como solicito a ativação da função crédito do cartão Mastercard através do Aplicativo?",
+        "answer": "Antes de poder utilizar a função crédito do seu cartão Mastercard é preciso solicitar uma análise de crédito. Para isso, siga as instruções abaixo acessando sua conta através do aplicativo:\r\n\r\n1. No menu, acesse a opção CARTÃO;\r\n2. Localize o seu cartão e clique no botão SOLICITAR LIMITE;\r\n3. Caso possua o último recibo da declaração de Imposto de Renda e do seu último Contracheque/Holerite, faça a importação dos arquivos nos campos correspondentes (o anexo será feito através do envio de foto);\r\n4. Clique em SOLICITAR;\r\n5. Sucesso! A sua solicitação será analisada no prazo máximo de 7 dias e o retorno será dado exclusivamente por e-mail.\r\n\r\n*Esses documentos não são obrigatórios para a análise de crédito, mas ajudam na aprovação.",
+        "keys": [
+          "crédito,função crédito,aplicativo,habilitar,desbloquear,compras no crédito"
+        ],
+        "categories": [
+          "10"
+        ],
+        "id": 118
+      },
+      {
+        "ask": "Qual a diferença entre o cartão Gold e o Standard?",
+        "answer": "O cartão laranja é a substituição do cartão Standard. Não há nenhuma diferença entre eles a não ser o modelo do plástico. Ambos possuem o mesmo benefício no Programa Mastercard Surpreenda.",
+        "keys": [
+          "cartão ,laranja,standard,gold,milhagens,mastercard,cartão laranja"
+        ],
+        "categories": [
+          "9"
+        ],
+        "id": 119
+      },
+      {
+        "ask": "Quais são as funcionalidades da Conta Digital MEI?",
+        "answer": "A nossa Conta Digital MEI possui todos os serviços de uma conta corrente tradicional, com as facilidades e benefícios de fazer tudo onde você estiver. Você poderá realizar transferências entre contas (Banco Inter e demais bancos), efetuar pagamento de boletos bancários, convênios, tributos, e impostos, emitir boletos para depósito. Tudo isso via Internet Banking ou App de forma totalmente gratuita. ",
+        "keys": [
+          "conta mei,mei,beneficios,funcionalidades,conta corrente,serviços"
+        ],
+        "categories": [
+          "26"
+        ],
+        "id": 120
+      },
+      {
+        "ask": "Quais são os limites de transação da Conta Digital MEI?",
+        "answer": "Você poderá realizar as operações na Conta Digital MEI, de acordo com os limites abaixo:\r\n\r\n- Quantidade de transferência Terceiros (mensal): 100;\r\n- Quantidade Emissões Depósito por Boleto (mensal): 100;\r\n- Limite Transferência Mesma Titularidade (diário): R$ 10.000,00;\r\n- Limite Transferência Terceiros (diário): R$ 5.000,00;\r\n- Limite Pagamento Boleto (diário): R$ 5.000,00;\r\n- Limite saque na rede 24Horas (diário): 3.000,00.",
+        "keys": [
+          "limites ,conta mei,mei,transferências,depósito por boleto,pagamentos,saques"
+        ],
+        "categories": [
+          "26"
+        ],
+        "id": 121
+      },
+      {
+        "ask": "O que é o MEI – Microempreendedor Individual?",
+        "answer": "O MEI é o pequeno empresário individual que atende as condições abaixo relacionadas:\r\n\r\n1. Tenha faturamento limitado a R$ 81.000,00 por ano, de janeiro a dezembro. Observação: o Microempreendedor Individual que se formalizar durante o ano em curso, tem seu limite de faturamento proporcional a R$ 6.750,00, por mês, até 31 de dezembro do mesmo ano. Exemplo: O MEI que se formalizar em junho, terá o limite de faturamento de R$ 47.250,00 (7 meses x R$ 6.750,00), neste ano;\r\n2. Que não participe como sócio, administrador ou titular de outra empresa;\r\n3. Contrate no máximo um empregado;\r\n4. Exerça uma das atividades econômicas previstas no Anexo XIII, da Resolução do Comitê Gestor do Simples Nacional de nº 94/2011, o qual relaciona todas as atividades permitidas ao MEI.\r\n\r\nPara mais informações acesse o link http://www.portaldoempreendedor.gov.br/ ",
+        "keys": [
+          "mei,o que é mei,conta digital mei,conta mei,faturamento,empresário individual,Microempreendedor Individual"
+        ],
+        "categories": [
+          "26"
+        ],
+        "id": 122
+      },
+      {
+        "ask": "Como é o processo de abertura da Conta Digital MEI?",
+        "answer": "O processo para a abertura da Conta Digital MEI do Banco Inter é muito simples! É 100% digital e feito integralmente pelo nosso site. Você não precisa ir a uma agência ou enviar qualquer documento físico. Para iniciar, basta solicitar um convite para a sua empresa por meio do nosso site. \r\n\r\n*A Conta Digital MEI é um serviço exclusivo para correntistas conta digital pessoa física",
+        "keys": [
+          "conta digital mei,conta mei,mei,convite,processo de abertura,como abrir a conta"
+        ],
+        "categories": [
+          "26"
+        ],
+        "id": 123
+      },
+      {
+        "ask": "Como solicito o convite para abertura da Conta MEI?",
+        "answer": "O convite será a sua porta de entrada para o processo de abertura. \r\nA Conta Digital MEI é um serviço exclusivo para correntistas conta digital pessoa física. Se você já é nosso correntista da conta Pessoa Física, acesse o site na aba Conta Digital MEI, clique em “Solicite Convite Agora” e preencha o formulário. \r\nTodas as solicitações serão analisadas e os perfis compatíveis receberão um e-mail com o convite para a abertura da Conta Digital MEI. \r\nNele estarão descritas as orientações para continuação do processo.",
+        "keys": [
+          "convite,como solicitar,conta mei,mei,conta digital mei,solicitar convite,abertura de conta"
+        ],
+        "categories": [
+          "26"
+        ],
+        "id": 124
+      },
+      {
+        "ask": "Quais são as informações e os documentos que preciso ter para solicitar a abertura da Conta Digital MEI?",
+        "answer": "Os documentos e informações essenciais para solicitar abertura da Conta Digital MEI, após a aprovação do convite, são: \r\n\r\n1. CNPJ;\r\n2. Razão Social;\r\n3. CPF do representante legal;\r\n4. Número de Inscrição Estadual e Municipal (caso a empresa possua);\r\n5. Faturamento dos últimos 12 meses (poderão ser declarados meses zerados ou o período completo zerado);\r\n6. Endereço para correspondência;\r\n7. Certificado MEI.",
+        "keys": [
+          "documentos,solicitar abertura ,abertura de conta,conta digital mei,conta mei,mei"
+        ],
+        "categories": [
+          "26"
+        ],
+        "id": 125
+      },
+      {
+        "ask": "Como devo preencher a Ficha Cadastral?",
+        "answer": "Você deverá baixar o arquivo da Ficha Cadastral no botão de download à direita do nome do documento e imprimir. Posteriormente, confira as informações existentes.\r\nAo final do item 6, preencha o local, a data e assine (a assinatura deve ser correspondente ao seu documento de identificação enviado para abertura da sua Conta Digital PF – RG ou CNH). Digitalize o documento, salve em formato PDF e faça o upload ao site (por meio do botão à extrema direita).\r\n​\r\n*Observação: os campos “Agência e Conta” (disposto no item 1) não devem ser preenchidos.\r\nO item 7 também não deve ser preenchido, ele é exclusivo para preenchimento interno do Banco Inter.\r\n\r\n*Importante: só serão aceitos arquivos em formato PDF.",
+        "keys": [
+          "conta mei,conta digital mei,ficha cadastral,mei,documentos,pdf ,arquivo"
+        ],
+        "categories": [
+          "26"
+        ],
+        "id": 126
+      },
+      {
+        "ask": "Como devo preencher o faturamento?",
+        "answer": "Quando já estiver em processo de abertura da conta MEI, será solicitado o preenchimento dos valores de faturamento para os últimos 12 meses da empresa. Estarão disponíveis 12 campos identificados pelos meses em questão. Os valores devem ser preenchidos em cada campo, considerando que se a empresa não possuir faturamento em nenhum dos últimos 12 meses, deverá selecionar a caixa disposta abaixo dos campos dos meses, identificada como: “Declaro que a minha empresa não teve faturamento nos últimos 12 meses, contando da assinatura desta ficha cadastral”.",
+        "keys": [
+          "faturamento,conta mei,conta digital mei,mei,como enviar faturamento"
+        ],
+        "categories": [
+          "26"
+        ],
+        "id": 127
+      },
+      {
+        "ask": "O que é Certificado MEI?",
+        "answer": "Todo MEI tem um certificado. É ele que comprova sua inscrição e vale como alvará de funcionamento. \r\nO Certificado da Condição do Microempreendedor Individual (CCMEI) é o documento que certifica que sua empresa está aberta. Este documento comprova a sua inscrição no CNPJ e Junta Comercial do seu Estado e vale como alvará de funcionamento do seu negócio.\r\n\r\nCaso você não tenha o arquivo armazenado, acesse o link poderá emitir a segunda via pelo Portal do Empreendedor – MEI. Você precisará somente do seu CNPJ e da sua data de nascimento para preenchimento. ",
+        "keys": [
+          "certificado,mei,conta mei,conta digital mei,CCMEI,Microempreendedor Individual "
+        ],
+        "categories": [
+          "26"
+        ],
+        "id": 128
+      },
+      {
+        "ask": "Como anexo o meu Certificado MEI no site?",
+        "answer": "O Certificado MEI deverá ser anexado no item identificado por este nome no passo “Envio de Documentos” por meio do botão à extrema direita, para upload.\r\n\r\n*Importante: só serão aceitos arquivos em formato PDF.",
+        "keys": [
+          "certificado,mei,conta digital mei,conta mei,certificado mei,documentos,arquivo,pdf"
+        ],
+        "categories": [
+          "26"
+        ],
+        "id": 129
+      },
+      {
+        "ask": "Como devo preencher o Cartão de Assinaturas?",
+        "answer": "Você deverá baixar o arquivo do Cartão de Assinaturas no botão de download à direita do nome do documento e imprimir. Confira as informações existentes e assine 3 vezes nos campos indicados (as assinaturas devem ser correspondentes ao seu documento de identificação enviado para abertura da sua Conta Digital PF – RG ou CNH). \r\nDigitalize o documento, salve em formato PDF e faça o upload ao site (por meio do botão à extrema direita).\r\n​\r\n*Observação: os campos “Código, Agência e Conta” (dispostos no topo do documento do Cartão de Assinaturas”) não devem ser preenchidos, eles são exclusivos para preenchimento interno do Banco Inter.\r\n*Importante: só serão aceitos arquivos em formato PDF.",
+        "keys": [
+          "conta mei,conta digital mei,cartão de assinaturas,mei,documentos"
+        ],
+        "categories": [
+          "26"
+        ],
+        "id": 130
+      },
+      {
+        "ask": "Não recebo correspondências no endereço comercial, mas o site não permite a alteração destes dados. O que faço?",
+        "answer": "O site preencherá automaticamente os dados do endereço comercial (que serão de acordo com as informações registradas na Receita Federal).\r\nCaso o endereço de correspondência não seja o mesmo, você poderá selecionar a opção “Não” no item identificado como: “O endereço de correspondência é o mesmo que o endereço comercial” (posicionada logo após o campo “endereço correspondência”). \r\nDesta forma você poderá preencher estas informações de acordo com a sua escolha.",
+        "keys": [
+          "endereço,comprovante de endereço,correspondência ,conta mei,conta digital mei,mei"
+        ],
+        "categories": [
+          "26"
+        ],
+        "id": 131
+      },
+      {
+        "ask": "Quem vai receber o novo cartão?",
+        "answer": "Os clientes que abriram a conta a partir do dia 20/03/2018 já receberão o cartão laranja e, os que solicitarem 2º via de cartão, a partir da mesma data.",
+        "keys": [
+          "cartão laranja,laranja,cartão ,gold"
+        ],
+        "categories": [
+          "9"
+        ],
+        "id": 132
+      }
+    ]
+  }
