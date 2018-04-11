@@ -19,7 +19,7 @@ export default class FAQ extends EventDispatcher {
 	}
 
 	init() {
-		this.initUserTable(this.options.element);
+		this.initFAQ(this.options.element);
 		this.trigger({ type: 'loaded', interTable: this}, true);
 		this.getFAQ();
 	}
@@ -33,7 +33,7 @@ export default class FAQ extends EventDispatcher {
 		LocalStorage.set('faq', this.faq);
 	}
 
-	initUserTable() {
+	initFAQ() {
 		this.template = new FAQContainer(this.options.element, this.options.perPage);
 	}
 }

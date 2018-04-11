@@ -19,7 +19,7 @@
 
 	<body>
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-			<a class="navbar-brand" href="#">Tabela Banco Inter</a>
+			<a class="navbar-brand" href="#">FAQ Inter</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -42,17 +42,16 @@
 			<!-- Main jumbotron for a primary marketing message or call to action -->
 			<div class="jumbotron">
 				<div class="container" id="buttoncontainer">
-					<h1 class="display-3">Tabela Banco Inter</h1>
+					<h1 class="display-3">FAQ Inter</h1>
 				</div>
-				<div id="table-placeholder" class="container">
+				<div id="faq-placeholder" class="container">
 				</div>
 				<script src="./inter.faq.js"></script>
 				<script>
 					const faq = new InterFAQ({
-						element: document.querySelector('#table-placeholder'),
+						element: document.querySelector('#faq-placeholder'),
 						endpoint: '/json/faq.json',
-						//endpoint: 'https://api.myjson.com/bins/1as255',
-						forceEndpoint: true
+						forceEndpoint: true // não depender do localstorage
 					});
 
 					faq.on('loaded', (event) => {
@@ -67,7 +66,7 @@
 		</main>
 
 		<footer class="container">
-			<p>&copy; Company 2017</p>
+			<p>Feito por: Thiago Miranda de Oliveira</p>
 		</footer>
 	</body>
 </html>

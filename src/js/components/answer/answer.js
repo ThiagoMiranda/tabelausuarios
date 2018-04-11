@@ -1,5 +1,7 @@
 import loadView from './answer.jsx';
-import { evtDispatcher } from '../../commons/EventDispatcher';
+
+//	CSS
+import './answer.scss';
 
 export default class Answer {
 
